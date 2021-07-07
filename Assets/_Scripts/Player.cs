@@ -76,8 +76,9 @@ public class Player : MonoBehaviour
 
     void Flip(bool value)
     {
+        transform.Rotate(0, 180, 0);
         facingRight = !facingRight;
-        scale.x *= -1;
-        transform.localScale = scale;
+        //scale.x *= -1;
+        //transform.localScale = scale;
     }
 }

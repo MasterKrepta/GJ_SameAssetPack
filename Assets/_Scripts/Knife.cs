@@ -21,19 +21,14 @@ public class Knife : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
-            handle.enabled = false;
-            rb.gravityScale = 0;
             EquipKnife(player.throwPoint);
-            
         }
     }
 
 
     public void ThrowKnife()
     {
-        Debug.Log("throw");
-        rb.gravityScale = 1;
-        
+        rb.isKinematic = false;
         rb.AddForce(transform.parent.parent.right * throwForce);
         transform.parent = null;
         StartCoroutine(ResetPickup());
@@ -43,12 +38,11 @@ public class Knife : MonoBehaviour
 
     public void EquipKnife(Transform throwPoint)
     {
-        Debug.Log("pickup");
         player.knife = this.transform;
+        transform.position = throwPoint.position;
         transform.parent = throwPoint.transform;
-        this.transform.position = transform.parent.position;
-        
-        
+        handle.enabled = false;
+        rb.isKinematic = true;
     }
 
     IEnumerator ResetPickup()
