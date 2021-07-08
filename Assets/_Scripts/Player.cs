@@ -37,6 +37,28 @@ public class Player : MonoBehaviour
     void Update()
     {
         movement = GetInput();
+        ManageRotation();
+
+        transform.position += movement * Time.deltaTime * speed;
+
+        if (Input.GetButtonDown("Jump"))
+        {
+            rb.AddForce(transform.up * jumpForce);
+        }
+        if (Input.GetKeyDown(KeyCode.F) && knife != null)
+        {
+            MeleeAttack();
+        }
+        if (Input.GetKeyDown(KeyCode.G) && knife != null)
+        {
+            knife = null;
+            knifeScript.ThrowKnife();
+        }
+
+    }
+
+    private void ManageRotation()
+    {
         if (movement.x != 0)
             anim.SetBool("Moving", true);
         else
@@ -53,21 +75,8 @@ public class Player : MonoBehaviour
 
             Flip(false);
         }
-
-
-        transform.position += movement * Time.deltaTime * speed;
-
-        if (Input.GetButtonDown("Jump"))
-        {
-            rb.AddForce(transform.up * jumpForce);
-        }
-        if (Input.GetKeyDown(KeyCode.G) && knife != null)
-        {
-            knife = null;
-            knifeScript.ThrowKnife();
-        }
-
     }
+
     //public void EquipKnife(Transform knife)
     //{
     //    knife.position = throwPoint.transform.position;
@@ -80,5 +89,11 @@ public class Player : MonoBehaviour
         facingRight = !facingRight;
         //scale.x *= -1;
         //transform.localScale = scale;
+    }
+
+    void MeleeAttack()
+    {
+        int randAttack = UnityEngine.Random.Range(1, 3);
+        anim.SetTrigger("atk" + randAttack);
     }
 }
