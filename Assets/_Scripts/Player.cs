@@ -36,10 +36,15 @@ public class Player : MonoBehaviour
     }
     void Update()
     {
+        if (knife != null)
+            anim.SetBool("hasKnife", true);
+
         movement = GetInput();
         ManageRotation();
 
         transform.position += movement * Time.deltaTime * speed;
+
+        
 
         if (Input.GetButtonDown("Jump"))
         {
@@ -52,10 +57,13 @@ public class Player : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.G) && knife != null)
         {
             knife = null;
+            anim.SetBool("hasKnife", false);
             knifeScript.ThrowKnife();
+            anim.Play("PlayerIdle");
         }
 
     }
+
 
     private void ManageRotation()
     {

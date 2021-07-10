@@ -6,6 +6,15 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
+    path: Assets/Scenes/island.unity
+    guid: f187e1eb7d4cac64ba7c6c1c94c0ae09
+  - enabled: 1
+    path: Assets/Scenes/cave.unity
+    guid: f1de02241c0ea02499373358d9f1ac30
+  - enabled: 1
+    path: Assets/Scenes/pirateShip.unity
+    guid: 9fb008757924c114abf9daf0e70e319e
+  - enabled: 1
+    path: Assets/Scenes/shop.unity
+    guid: 7e84c47674c01014db9e8fbd9c828a59
   m_configObjects: {}

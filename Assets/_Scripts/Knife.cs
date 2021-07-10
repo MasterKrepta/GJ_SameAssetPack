@@ -8,6 +8,7 @@ public class Knife : MonoBehaviour
     Rigidbody2D rb;
     CircleCollider2D handle;
     BoxCollider2D bc;
+    SpriteRenderer sr;
     public float throwForce = 5f;
     
 
@@ -18,6 +19,7 @@ public class Knife : MonoBehaviour
         handle = GetComponent<CircleCollider2D>();
         rb = GetComponent<Rigidbody2D>();
         bc = GetComponent<BoxCollider2D>();
+        sr = GetComponent<SpriteRenderer>();
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -30,6 +32,8 @@ public class Knife : MonoBehaviour
 
     public void ThrowKnife()
     {
+        
+        sr.enabled = true;
         rb.isKinematic = false;
         bc.enabled = true;
         
@@ -44,6 +48,7 @@ public class Knife : MonoBehaviour
     public void EquipKnife(Transform throwPoint)
     {
         //TODO make sure knife is rotated correctly in relation to the player
+        sr.enabled = false;
         bc.enabled = false;
         player.knife = this.transform;
         transform.position = throwPoint.position;
