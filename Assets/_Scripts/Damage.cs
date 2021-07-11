@@ -6,7 +6,6 @@ public class Damage : MonoBehaviour
 {
     public float dmg = 1f;
 
-
     private void OnTriggerEnter2D(Collider2D collision)
     {
         Debug.Log($"{this.gameObject} hit { collision.name}");
@@ -16,5 +15,4 @@ public class Damage : MonoBehaviour
             health.TakeDamage(dmg);
         }
     }
-
 }

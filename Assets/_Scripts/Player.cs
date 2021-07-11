@@ -18,6 +18,7 @@ public class Player : MonoBehaviour
     Knife knifeScript;
     Animator anim;
     CircleCollider2D dmgPoint;
+    Damage dmgScript;
     
 
     // Start is called before the first frame update
@@ -110,10 +111,14 @@ public class Player : MonoBehaviour
     public void KnifeDmg_ON()
     {
         dmgPoint.enabled = true;
+        Invoke("KnifeDmg_OFF", 1);
+        //print("ON");
     }
 
     public void KnifeDmg_OFF()
     {
         dmgPoint.enabled = false;
+        //print("OFF");
+        
     }
 }
