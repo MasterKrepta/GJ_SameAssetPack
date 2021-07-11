@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9d1514134bc4fbd41bb739b1b9a49231, type: 3}
-  m_Name: GroundRuleTile
+  m_Name: CaveTiles
   m_EditorClassIdentifier: 
   m_DefaultSprite: {fileID: 5550582127777731385, guid: 93725aba31d44a84fba9cfc2180ad4e8, type: 3}
   m_DefaultGameObject: {fileID: 0}

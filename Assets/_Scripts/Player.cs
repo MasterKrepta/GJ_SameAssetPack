@@ -6,7 +6,7 @@ using UnityEngine;
 public class Player : MonoBehaviour
 {
 
-    [SerializeField] float jumpForce = 500, speed = 2f, throwForce = 200f, rechargeTime = 2f;
+    [SerializeField] float jumpForce = 500, speed = 3f;
     
     Vector3 movement;
     bool facingRight = true;
@@ -16,8 +16,8 @@ public class Player : MonoBehaviour
     public Transform knife, throwPoint;
 
     Knife knifeScript;
-    public bool CanThrow = true;
     Animator anim;
+    CircleCollider2D dmgPoint;
     
 
     // Start is called before the first frame update
@@ -27,6 +27,8 @@ public class Player : MonoBehaviour
         knifeScript = FindObjectOfType<Knife>();
         scale = transform.localScale;
         rb = GetComponent<Rigidbody2D>();
+        dmgPoint = throwPoint.GetComponent<CircleCollider2D>();
+        dmgPoint.enabled = false;
     }
  
     private Vector3 GetInput()
@@ -59,7 +61,7 @@ public class Player : MonoBehaviour
             knife = null;
             anim.SetBool("hasKnife", false);
             knifeScript.ThrowKnife();
-            anim.Play("PlayerIdle");
+            anim.Play("Player Idle");
         }
 
     }
@@ -103,5 +105,15 @@ public class Player : MonoBehaviour
     {
         int randAttack = UnityEngine.Random.Range(1, 3);
         anim.SetTrigger("atk" + randAttack);
+    }
+
+    public void KnifeDmg_ON()
+    {
+        dmgPoint.enabled = true;
+    }
+
+    public void KnifeDmg_OFF()
+    {
+        dmgPoint.enabled = false;
     }
 }

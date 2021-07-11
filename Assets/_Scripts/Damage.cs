@@ -9,10 +9,12 @@ public class Damage : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        Debug.Log($"{this.gameObject} hit { collision.name}");
         var health = collision.GetComponent<IDamagable>();
         if (health != null)
         {
             health.TakeDamage(dmg);
         }
     }
+
 }

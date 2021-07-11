@@ -32,12 +32,12 @@ public class Knife : MonoBehaviour
 
     public void ThrowKnife()
     {
-        
         sr.enabled = true;
         rb.isKinematic = false;
         bc.enabled = true;
         
         rb.AddForce(transform.parent.parent.right * throwForce);
+        transform.rotation = transform.parent.parent.rotation; //! make sure knife is rotated correctly
         transform.parent = null;
         
         StartCoroutine(ResetPickup());
@@ -47,7 +47,7 @@ public class Knife : MonoBehaviour
 
     public void EquipKnife(Transform throwPoint)
     {
-        //TODO make sure knife is rotated correctly in relation to the player
+        
         sr.enabled = false;
         bc.enabled = false;
         player.knife = this.transform;

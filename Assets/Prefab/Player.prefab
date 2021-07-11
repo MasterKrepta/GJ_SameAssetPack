@@ -150,7 +150,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   jumpForce: 250
-  speed: 2
+  speed: 3
   throwForce: 8
   rechargeTime: 2
   knife: {fileID: 0}
