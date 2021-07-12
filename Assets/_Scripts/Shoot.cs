@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Totem : MonoBehaviour
+public class Shoot : MonoBehaviour
 {
     public Transform firePoint;
 

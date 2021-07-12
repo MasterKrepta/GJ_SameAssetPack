@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class DetectTarget : MonoBehaviour
 {
-    float detectRange = 15f;
+    //float detectRange = 15f;
     public bool InRange = false;
 
     private void OnTriggerEnter2D(Collider2D collision)
