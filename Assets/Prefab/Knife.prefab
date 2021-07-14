@@ -10,10 +10,10 @@ GameObject:
   m_Component:
   - component: {fileID: 6115387083213447404}
   - component: {fileID: 6115387083213447405}
-  - component: {fileID: 6115387083213447406}
+  - component: {fileID: 212628627}
   m_Layer: 0
   m_Name: DmgDealer
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -39,7 +39,7 @@ CircleCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6115387083213447403}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 1
@@ -48,7 +48,7 @@ CircleCollider2D:
   m_Offset: {x: 0.13, y: 0}
   serializedVersion: 2
   m_Radius: 0.15
---- !u!114 &6115387083213447406
+--- !u!114 &212628627
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -89,7 +89,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6115387083317715039}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.467, y: -2.77, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -224,4 +224,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95e87467e6cdbe24b9daf65d1c4e0f42, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  throwForce: 500
+  throwForce: 400

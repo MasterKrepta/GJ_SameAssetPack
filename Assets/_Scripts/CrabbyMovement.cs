@@ -19,6 +19,7 @@ public class CrabbyMovement : MonoBehaviour
 
     public float Distance;
     bool movingRight = false;
+    bool toggleCheck = true;
     
     Vector2 rotScale = new Vector2(0, 180);
 
@@ -27,6 +28,7 @@ public class CrabbyMovement : MonoBehaviour
     {
         Player = FindObjectOfType<Player>().transform;
         patrolOrigin = GetOrigin();
+        currentState = State.PATROL;
     }
 
     // Update is called once per frame
@@ -35,6 +37,7 @@ public class CrabbyMovement : MonoBehaviour
         DetectionCheck();
         if (currentState == State.PATROL)
         {
+            
             Patrol();
         }
         else
@@ -45,14 +48,15 @@ public class CrabbyMovement : MonoBehaviour
 
     private void DetectionCheck()
     {
-        if (detect.InRange)
+        if (detect.InRange && currentState == State.PATROL)
         {
             currentState = State.MOVING;
             
         }
 
-        else
+        else if (!detect.InRange && currentState == State.MOVING)
         {
+            patrolOrigin = GetOrigin();
             currentState = State.PATROL;
             
             //transform.position = patrolOrigin;
@@ -63,26 +67,37 @@ public class CrabbyMovement : MonoBehaviour
     {
         //todo moving script
         transform.position = Vector2.MoveTowards(transform.position, Player.position, Speed * Time.deltaTime);
+        if (Player.position.x <= transform.position.x)
+        {
+            transform.rotation = Quaternion.Euler(Vector2.zero);
+        }
+        else
+        {
+            transform.rotation = Quaternion.Euler(rotScale);
+
+        }
     }
 
     private void Patrol()
     {
         Distance = Vector2.Distance(patrolOrigin, transform.position);
 
-        if (!movingRight)
+        if (!movingRight )
         {
-            if (Distance >= moveDistance)
+            if (Distance > moveDistance && toggleCheck)
             {
                 transform.rotation = Quaternion.Euler(rotScale);
                 movingRight = true;
+                StartCoroutine(ToggleDirection());
             }
         }
         else
         {
-            if (Distance >= moveDistance)
+            if (Distance > moveDistance && toggleCheck)
             {
                 transform.rotation = Quaternion.Euler(Vector2.zero);
                 movingRight = false;
+                StartCoroutine(ToggleDirection());
             }
         }
         
@@ -99,5 +114,12 @@ public class CrabbyMovement : MonoBehaviour
     Vector3 GetOrigin()
     {
         return transform.position;
+    }
+
+    IEnumerator ToggleDirection()
+    {
+        toggleCheck = false;
+        yield return new WaitForSeconds(0.25f);
+        toggleCheck = true;
     }
 }

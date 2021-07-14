@@ -2,9 +2,12 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Player : MonoBehaviour
 {
+
+    public Image knifeIcon;
 
     [SerializeField] float jumpForce = 500, speed = 3f;
     
@@ -40,7 +43,15 @@ public class Player : MonoBehaviour
     void Update()
     {
         if (knife != null)
+        {
+            knifeIcon.enabled = true;
             anim.SetBool("hasKnife", true);
+        }
+        else
+        {
+            knifeIcon.enabled = false;
+        }
+            
 
         movement = GetInput();
         ManageRotation();
@@ -60,6 +71,7 @@ public class Player : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.G) && knife != null)
         {
             knife = null;
+            
             anim.SetBool("hasKnife", false);
             knifeScript.ThrowKnife();
             anim.Play("Player Idle");

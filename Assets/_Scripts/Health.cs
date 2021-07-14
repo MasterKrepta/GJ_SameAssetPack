@@ -9,11 +9,14 @@ public class Health : MonoBehaviour, IDamagable
     public float MaxHealth { get => _maxHealth; set => _maxHealth = value; }
 
     public GameObject destroyed;
+    Animator anim;
 
+    
    
 
     public void TakeDamage(float dmg)
     {
+        anim.SetTrigger("hit");
         CurrentHealth -= dmg;
         if (CurrentHealth <= 0) 
         {
@@ -26,6 +29,7 @@ public class Health : MonoBehaviour, IDamagable
     void Start()
     {
         CurrentHealth = MaxHealth;
+        anim = GetComponent<Animator>();
     }
 
     
