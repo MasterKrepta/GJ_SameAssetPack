@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -44,8 +45,22 @@ public class LoadArea : MonoBehaviour
     {
         if (!IsLoaded)
         {
+            DestroyOffScreenEnemies();
             SceneManager.LoadSceneAsync(gameObject.name, LoadSceneMode.Additive);
             IsLoaded = true;
+        }
+    }
+
+    private void DestroyOffScreenEnemies()
+    {
+        GameObject[] enemies = GameObject.FindGameObjectsWithTag("Enemy");
+
+        foreach (var e in enemies)
+        {
+            if (e.GetComponent<Renderer>().isVisible == false)
+            {
+                Destroy(e);
+            }
         }
     }
 

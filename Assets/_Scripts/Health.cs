@@ -11,8 +11,14 @@ public class Health : MonoBehaviour, IDamagable
     public GameObject destroyed;
     Animator anim;
 
-    
-   
+    private void Update()
+    {
+        if (this.GetComponent<Renderer>().isVisible)
+        {
+            print(this.name);
+        }
+    }
+
 
     public void TakeDamage(float dmg)
     {
