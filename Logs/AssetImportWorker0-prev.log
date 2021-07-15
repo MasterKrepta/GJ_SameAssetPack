@@ -15,11 +15,11 @@ C:/Users/brian/Documents/Unity Projects/GJ_SameAssetPack
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-52486
+57724
 Successfully changed project path to: C:/Users/brian/Documents/Unity Projects/GJ_SameAssetPack
 C:/Users/brian/Documents/Unity Projects/GJ_SameAssetPack
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 113.27 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 145.13 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.1.4f1 (4cd64a618c1b)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.1.4f1/Editor/Data/Resources/UnitySubsystems
@@ -35,1355 +35,256 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.1.4f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.1.4f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56556
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56572
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002638 seconds.
+Registered in 0.002795 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 117.81 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 120.10 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.485 seconds
+- Completed reload, in  2.559 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004395 seconds.
+Registered in 0.004949 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 115.34 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 124.95 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.385 seconds
+- Completed reload, in  1.435 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
-Refreshing native plugins compatible for Editor in 0.91 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.84 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3426 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 130.6 MB.
-System memory in use after: 130.7 MB.
+Unloading 3428 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 130.7 MB.
+System memory in use after: 130.8 MB.
 
-Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 3880.
-Total: 3.689700 ms (FindLiveObjects: 0.325200 ms CreateObjectMapping: 0.098100 ms MarkObjects: 3.118600 ms  DeleteObjects: 0.146400 ms)
+Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 3883.
+Total: 4.049500 ms (FindLiveObjects: 0.368400 ms CreateObjectMapping: 0.090100 ms MarkObjects: 3.376300 ms  DeleteObjects: 0.212700 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Animations/crabbyController.controller
-  artifactKey: Guid(87521dd1c2fafc34e91ea192dd59ece1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/crabbyController.controller using Guid(87521dd1c2fafc34e91ea192dd59ece1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6e75ad8091cdc2d367d23c24c002e61') in 0.053203 seconds 
+  path: Assets/Animations/starIdle.anim
+  artifactKey: Guid(82ee799977e1ca342b8c8f322b3748a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/starIdle.anim using Guid(82ee799977e1ca342b8c8f322b3748a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b29b05ce17175a969cfec3c8b8dbd280') in 0.055226 seconds 
 ========================================================================
 Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004620 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.91 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 4.61 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.193 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.94 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3420 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 130.5 MB.
-System memory in use after: 130.6 MB.
+Unloading 15 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 62.9 MB.
+System memory in use after: 63.0 MB.
 
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3884.
-Total: 2.629300 ms (FindLiveObjects: 0.324000 ms CreateObjectMapping: 0.085300 ms MarkObjects: 2.106200 ms  DeleteObjects: 0.112500 ms)
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3883.
+Total: 3.002900 ms (FindLiveObjects: 0.384100 ms CreateObjectMapping: 0.088000 ms MarkObjects: 2.412500 ms  DeleteObjects: 0.117000 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004229 seconds.
+Registered in 0.004355 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.89 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.84 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.230 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.90 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3420 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 130.5 MB.
-System memory in use after: 130.7 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3888.
-Total: 2.560600 ms (FindLiveObjects: 0.316300 ms CreateObjectMapping: 0.085800 ms MarkObjects: 2.047100 ms  DeleteObjects: 0.110300 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004290 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.89 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.162 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.89 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3420 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 130.6 MB.
-System memory in use after: 130.7 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3892.
-Total: 2.494600 ms (FindLiveObjects: 0.293900 ms CreateObjectMapping: 0.085000 ms MarkObjects: 2.007800 ms  DeleteObjects: 0.106900 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004267 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.42 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.432 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.97 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3421 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 130.7 MB.
-System memory in use after: 130.8 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3897.
-Total: 3.068800 ms (FindLiveObjects: 0.359100 ms CreateObjectMapping: 0.093100 ms MarkObjects: 2.489000 ms  DeleteObjects: 0.126500 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 728.144114 seconds.
-  path: Assets/_Scripts/PlayerHealth.cs
-  artifactKey: Guid(c237844aa3e34cc4682b7ff873ac2fae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Scripts/PlayerHealth.cs using Guid(c237844aa3e34cc4682b7ff873ac2fae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46ce17ee5f65e04443d51b87b2e18e2b') in 0.022821 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004282 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.91 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.230 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.01 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3421 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 130.7 MB.
-System memory in use after: 130.8 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3901.
-Total: 2.514500 ms (FindLiveObjects: 0.310300 ms CreateObjectMapping: 0.083800 ms MarkObjects: 2.014500 ms  DeleteObjects: 0.104700 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004622 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.89 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.197 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.92 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3421 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 130.7 MB.
-System memory in use after: 130.8 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3905.
-Total: 2.961800 ms (FindLiveObjects: 0.340800 ms CreateObjectMapping: 0.088100 ms MarkObjects: 2.404900 ms  DeleteObjects: 0.126800 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004219 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.89 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.192 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.04 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3421 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 130.7 MB.
-System memory in use after: 130.8 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3909.
-Total: 2.727800 ms (FindLiveObjects: 0.333900 ms CreateObjectMapping: 0.084900 ms MarkObjects: 2.190300 ms  DeleteObjects: 0.117700 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004712 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.96 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.200 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.42 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3421 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 130.7 MB.
-System memory in use after: 130.8 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3913.
-Total: 5.709400 ms (FindLiveObjects: 0.602100 ms CreateObjectMapping: 0.561200 ms MarkObjects: 4.393300 ms  DeleteObjects: 0.149800 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004806 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.00 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.283 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.07 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3421 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 130.7 MB.
-System memory in use after: 130.8 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3917.
-Total: 4.383300 ms (FindLiveObjects: 0.391700 ms CreateObjectMapping: 0.114700 ms MarkObjects: 3.702900 ms  DeleteObjects: 0.171500 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004613 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.90 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.199 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.90 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3421 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 130.7 MB.
-System memory in use after: 130.8 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3921.
-Total: 3.087200 ms (FindLiveObjects: 0.364900 ms CreateObjectMapping: 0.094700 ms MarkObjects: 2.503100 ms  DeleteObjects: 0.123200 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004204 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.18 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.180 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.91 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3421 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 130.7 MB.
-System memory in use after: 130.9 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3925.
-Total: 3.852400 ms (FindLiveObjects: 0.412000 ms CreateObjectMapping: 0.097300 ms MarkObjects: 3.220100 ms  DeleteObjects: 0.121400 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005081 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.90 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.176 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.94 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3421 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 130.8 MB.
-System memory in use after: 130.9 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3929.
-Total: 3.646000 ms (FindLiveObjects: 0.329100 ms CreateObjectMapping: 0.090400 ms MarkObjects: 3.083800 ms  DeleteObjects: 0.140600 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004638 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.89 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.179 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.90 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3421 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 130.8 MB.
-System memory in use after: 130.9 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3933.
-Total: 4.011500 ms (FindLiveObjects: 0.458000 ms CreateObjectMapping: 0.086700 ms MarkObjects: 3.318600 ms  DeleteObjects: 0.146800 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005087 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.89 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.209 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.01 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3421 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 130.8 MB.
-System memory in use after: 130.9 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3937.
-Total: 2.692400 ms (FindLiveObjects: 0.320500 ms CreateObjectMapping: 0.085800 ms MarkObjects: 2.167000 ms  DeleteObjects: 0.117800 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004406 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.52 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.184 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.96 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3421 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 130.8 MB.
-System memory in use after: 130.9 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3941.
-Total: 2.541100 ms (FindLiveObjects: 0.302300 ms CreateObjectMapping: 0.084900 ms MarkObjects: 2.047300 ms  DeleteObjects: 0.105700 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004638 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.98 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.197 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.91 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3421 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 130.8 MB.
-System memory in use after: 130.9 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3945.
-Total: 4.285000 ms (FindLiveObjects: 0.371300 ms CreateObjectMapping: 0.109200 ms MarkObjects: 3.673100 ms  DeleteObjects: 0.129300 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004422 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.90 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.208 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.22 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3421 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 130.8 MB.
-System memory in use after: 130.9 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3949.
-Total: 2.657200 ms (FindLiveObjects: 0.336600 ms CreateObjectMapping: 0.088800 ms MarkObjects: 2.123700 ms  DeleteObjects: 0.107000 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004349 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.94 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.195 seconds
+- Completed reload, in  1.148 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.88 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3421 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 130.8 MB.
-System memory in use after: 130.9 MB.
+Unloading 3422 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 130.7 MB.
+System memory in use after: 130.8 MB.
 
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3953.
-Total: 2.595900 ms (FindLiveObjects: 0.313600 ms CreateObjectMapping: 0.085600 ms MarkObjects: 2.089400 ms  DeleteObjects: 0.106300 ms)
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3887.
+Total: 2.531000 ms (FindLiveObjects: 0.315400 ms CreateObjectMapping: 0.083500 ms MarkObjects: 2.022700 ms  DeleteObjects: 0.108300 ms)
 
+========================================================================
+Received Import Request.
+  Time since last request: 239.608050 seconds.
+  path: Assets/xbones.ttf
+  artifactKey: Guid(64fa94afd68c4cd489a64cb00a5e8783) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/xbones.ttf using Guid(64fa94afd68c4cd489a64cb00a5e8783) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a57d45f521e493d6b0384804bde3edc') in 0.125118 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004821 seconds.
+Registered in 0.004659 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.92 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.86 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.159 seconds
+- Completed reload, in  1.246 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.92 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.86 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3421 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 130.8 MB.
-System memory in use after: 130.9 MB.
+Unloading 3423 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 135.1 MB.
+System memory in use after: 135.2 MB.
 
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3957.
-Total: 2.935600 ms (FindLiveObjects: 0.322900 ms CreateObjectMapping: 0.087700 ms MarkObjects: 2.383900 ms  DeleteObjects: 0.139000 ms)
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3950.
+Total: 2.535900 ms (FindLiveObjects: 0.304200 ms CreateObjectMapping: 0.083400 ms MarkObjects: 2.039500 ms  DeleteObjects: 0.107500 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004250 seconds.
+Registered in 0.004393 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.99 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.310 seconds
+- Completed reload, in  1.357 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.89 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3421 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 130.8 MB.
-System memory in use after: 130.9 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3961.
-Total: 2.628300 ms (FindLiveObjects: 0.341400 ms CreateObjectMapping: 0.086500 ms MarkObjects: 2.091000 ms  DeleteObjects: 0.108100 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004326 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.89 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.202 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.93 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3421 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 130.8 MB.
-System memory in use after: 131.0 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3965.
-Total: 2.637000 ms (FindLiveObjects: 0.330300 ms CreateObjectMapping: 0.085600 ms MarkObjects: 2.113200 ms  DeleteObjects: 0.106900 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004384 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.32 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.193 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.92 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3421 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 130.8 MB.
-System memory in use after: 131.0 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3969.
-Total: 3.317800 ms (FindLiveObjects: 0.316200 ms CreateObjectMapping: 0.086700 ms MarkObjects: 2.793100 ms  DeleteObjects: 0.120100 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004566 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.90 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.167 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.94 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3421 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 130.9 MB.
-System memory in use after: 131.0 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3973.
-Total: 2.721400 ms (FindLiveObjects: 0.345000 ms CreateObjectMapping: 0.087700 ms MarkObjects: 2.163100 ms  DeleteObjects: 0.124500 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004587 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.89 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.202 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.93 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3421 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 130.9 MB.
-System memory in use after: 131.0 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3977.
-Total: 3.533400 ms (FindLiveObjects: 0.318700 ms CreateObjectMapping: 0.089100 ms MarkObjects: 2.997100 ms  DeleteObjects: 0.126800 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004427 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.88 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.205 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.90 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3421 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 130.9 MB.
-System memory in use after: 131.0 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3981.
-Total: 3.191100 ms (FindLiveObjects: 0.333000 ms CreateObjectMapping: 0.085800 ms MarkObjects: 2.643300 ms  DeleteObjects: 0.127100 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005283 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.93 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.189 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.01 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3421 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 130.9 MB.
-System memory in use after: 131.0 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3985.
-Total: 2.770600 ms (FindLiveObjects: 0.327000 ms CreateObjectMapping: 0.086200 ms MarkObjects: 2.243100 ms  DeleteObjects: 0.113300 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 2685.318544 seconds.
-  path: Assets/AssetPack/Treasure Hunters/The Crusty Crew/Sprites/Dialogue
-  artifactKey: Guid(5568cecec72c29a458abf5bf0edcaa94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetPack/Treasure Hunters/The Crusty Crew/Sprites/Dialogue using Guid(5568cecec72c29a458abf5bf0edcaa94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '427f758f47f5dabef6483ad7d1698b22') in 0.013422 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 37.577368 seconds.
-  path: Assets/Animations/Attack Effect 01.controller
-  artifactKey: Guid(9bd4ab412584e254da66706c636fbdb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Attack Effect 01.controller using Guid(9bd4ab412584e254da66706c636fbdb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0058d4037790dfe3f95244e28dd8bee') in 0.020881 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 9.388201 seconds.
-  path: Assets/Animations/Attack Effect 02.controller
-  artifactKey: Guid(702b19cf9a7405d4f9ba45fe722f0285) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Attack Effect 02.controller using Guid(702b19cf9a7405d4f9ba45fe722f0285) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e02e0963e294730de2862d49e04bc76') in 0.008518 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 16.609565 seconds.
-  path: Assets/Animations/crabbyAttackEffect.anim
-  artifactKey: Guid(dcf019a5f16ff7147afa9e54717b1993) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/crabbyAttackEffect.anim using Guid(dcf019a5f16ff7147afa9e54717b1993) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de1c7a0899f846c7ed87f870947a251f') in 0.015721 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004271 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.08 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.183 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.89 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3421 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 130.9 MB.
-System memory in use after: 131.0 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3989.
-Total: 2.664000 ms (FindLiveObjects: 0.341800 ms CreateObjectMapping: 0.085500 ms MarkObjects: 2.125400 ms  DeleteObjects: 0.109700 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004240 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.91 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.172 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.89 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3421 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 130.9 MB.
-System memory in use after: 131.0 MB.
+Unloading 3422 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 135.1 MB.
+System memory in use after: 135.2 MB.
 
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3993.
-Total: 3.344900 ms (FindLiveObjects: 0.321100 ms CreateObjectMapping: 0.085600 ms MarkObjects: 2.808000 ms  DeleteObjects: 0.128500 ms)
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3954.
+Total: 3.235300 ms (FindLiveObjects: 0.319500 ms CreateObjectMapping: 0.085700 ms MarkObjects: 2.701300 ms  DeleteObjects: 0.127200 ms)
 
-========================================================================
-Received Import Request.
-  Time since last request: 74.428904 seconds.
-  path: Assets/AssetPack/Treasure Hunters/Pirate Treasure/Sprites/Potion Effect/01.png
-  artifactKey: Guid(e0bf41e29f504974c849de7b4c2a7698) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetPack/Treasure Hunters/Pirate Treasure/Sprites/Potion Effect/01.png using Guid(e0bf41e29f504974c849de7b4c2a7698) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '264ca7acb625168468fd49a3128ca485') in 0.153675 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000211 seconds.
-  path: Assets/AssetPack/Treasure Hunters/Pirate Treasure/Sprites/Map Effect/Out/01.png
-  artifactKey: Guid(656c51c2d7abd2b41a65baa438c1f63c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetPack/Treasure Hunters/Pirate Treasure/Sprites/Map Effect/Out/01.png using Guid(656c51c2d7abd2b41a65baa438c1f63c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a100b100e871470d3a20cd5fcab9d60d') in 0.029168 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000211 seconds.
-  path: Assets/AssetPack/Treasure Hunters/Pirate Ship/Sprites/Decorations/Window/Window/01.png
-  artifactKey: Guid(53a8d7ab6f66b4945b165ec9c0ed7e5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetPack/Treasure Hunters/Pirate Ship/Sprites/Decorations/Window/Window/01.png using Guid(53a8d7ab6f66b4945b165ec9c0ed7e5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '675515eb25941e7108f96b42b6f2d53f') in 0.033894 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000265 seconds.
-  path: Assets/AssetPack/Treasure Hunters/Pirate Ship/Sprites/Decorations/Barrels and Bottles/01.png
-  artifactKey: Guid(804de6c6fc6b37f45b24ff97acb8907f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetPack/Treasure Hunters/Pirate Ship/Sprites/Decorations/Barrels and Bottles/01.png using Guid(804de6c6fc6b37f45b24ff97acb8907f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be28e674542c17060f9a9645ecd76190') in 0.022260 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000237 seconds.
-  path: Assets/AssetPack/Treasure Hunters/Pirate Treasure/Sprites/Big Map/Unfolding/01.png
-  artifactKey: Guid(f55826f042b096f49bb103c8b46305fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetPack/Treasure Hunters/Pirate Treasure/Sprites/Big Map/Unfolding/01.png using Guid(f55826f042b096f49bb103c8b46305fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcc06484955c1bc3299691df625219fc') in 0.025075 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000213 seconds.
-  path: Assets/AssetPack/Treasure Hunters/Pirate Treasure/Sprites/Small Maps/Small Map 2/01.png
-  artifactKey: Guid(2931539df791a4e4bac48acf8e452bde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetPack/Treasure Hunters/Pirate Treasure/Sprites/Small Maps/Small Map 2/01.png using Guid(2931539df791a4e4bac48acf8e452bde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1f96e3cefaab816cf21b31ac76d4186') in 0.021935 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000251 seconds.
-  path: Assets/AssetPack/Treasure Hunters/Pirate Ship/Sprites/Decorations/Door/Closing/01.png
-  artifactKey: Guid(31c2786221e46ef418eba3f773e2f2c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetPack/Treasure Hunters/Pirate Ship/Sprites/Decorations/Door/Closing/01.png using Guid(31c2786221e46ef418eba3f773e2f2c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '629768b8eefa1c72c08976855bc90fe1') in 0.030021 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000254 seconds.
-  path: Assets/AssetPack/Treasure Hunters/Pirate Ship/Sprites/Decorations/Window/Window Light/01.png
-  artifactKey: Guid(07fec3d4769a5c042a0df902de77d00a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetPack/Treasure Hunters/Pirate Ship/Sprites/Decorations/Window/Window Light/01.png using Guid(07fec3d4769a5c042a0df902de77d00a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e108fc7467dbf614be4747b1ca2c6ef0') in 0.038557 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000201 seconds.
-  path: Assets/AssetPack/Treasure Hunters/Pirate Ship/Sprites/Decorations/Candle/Candle/01.png
-  artifactKey: Guid(daf571e334f628c46a4f8857143369c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetPack/Treasure Hunters/Pirate Ship/Sprites/Decorations/Candle/Candle/01.png using Guid(daf571e334f628c46a4f8857143369c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfd930fc931c60225afc5601534a801d') in 0.022782 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000287 seconds.
-  path: Assets/AssetPack/Treasure Hunters/Pirate Treasure/Sprites/Blue Potion/01.png
-  artifactKey: Guid(e6439709f8510ff41b59c6d995c305a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetPack/Treasure Hunters/Pirate Treasure/Sprites/Blue Potion/01.png using Guid(e6439709f8510ff41b59c6d995c305a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2875d4404818c07f24400549bcc4df1') in 0.021642 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000350 seconds.
-  path: Assets/AssetPack/Treasure Hunters/Pirate Treasure/Sprites/Golden Skull/01.png
-  artifactKey: Guid(b7012175fbcfd5c46ab8141b380fb30c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetPack/Treasure Hunters/Pirate Treasure/Sprites/Golden Skull/01.png using Guid(b7012175fbcfd5c46ab8141b380fb30c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '424805b82c212f4320f3e1869eb1d45d') in 0.022737 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000280 seconds.
-  path: Assets/AssetPack/Treasure Hunters/Pirate Treasure/Sprites/Gold Coin/01.png
-  artifactKey: Guid(08e9daabb930e454a9105054ab4d0c6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetPack/Treasure Hunters/Pirate Treasure/Sprites/Gold Coin/01.png using Guid(08e9daabb930e454a9105054ab4d0c6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a633ca416414dd0e8db7680d54cb01f2') in 0.032125 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000257 seconds.
-  path: Assets/AssetPack/Treasure Hunters/Pirate Treasure/Sprites/Small Maps/Small Map 3/01.png
-  artifactKey: Guid(b42f236288fc8874bb2b3744e3441dd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetPack/Treasure Hunters/Pirate Treasure/Sprites/Small Maps/Small Map 3/01.png using Guid(b42f236288fc8874bb2b3744e3441dd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ef3e711a0b6a9129a628c4706540d28') in 0.021849 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000208 seconds.
-  path: Assets/AssetPack/Treasure Hunters/Merchant Ship/Sprites/Chest/Idle/1.png
-  artifactKey: Guid(6ecc779210a382f4d934f92a7ef56c21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetPack/Treasure Hunters/Merchant Ship/Sprites/Chest/Idle/1.png using Guid(6ecc779210a382f4d934f92a7ef56c21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9892b3f8da5b876e86eeb7b885a29988') in 0.027210 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000219 seconds.
-  path: Assets/AssetPack/Treasure Hunters/Pirate Ship/Sprites/Decorations/Chains/Small/01.png
-  artifactKey: Guid(a6e0dde1c6014574398bc46a41e44a0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetPack/Treasure Hunters/Pirate Ship/Sprites/Decorations/Chains/Small/01.png using Guid(a6e0dde1c6014574398bc46a41e44a0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81ecca9c2e0ce55566995269d74d99b1') in 0.027917 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000259 seconds.
-  path: Assets/AssetPack/Treasure Hunters/Pirate Treasure/Sprites/Blue Diamond/01.png
-  artifactKey: Guid(687c6333145bbde46a0cd6d70339a8fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetPack/Treasure Hunters/Pirate Treasure/Sprites/Blue Diamond/01.png using Guid(687c6333145bbde46a0cd6d70339a8fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb4e4e8f438f038802b6bae1f1936ea4') in 0.023341 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000220 seconds.
-  path: Assets/AssetPack/Treasure Hunters/Pirate Treasure/Sprites/Silver Coin/01.png
-  artifactKey: Guid(b1cb81291edf70d46ba92b6e9e8e191f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetPack/Treasure Hunters/Pirate Treasure/Sprites/Silver Coin/01.png using Guid(b1cb81291edf70d46ba92b6e9e8e191f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb8ac75a91961b50f70cfca6019cc28e') in 0.019971 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000261 seconds.
-  path: Assets/AssetPack/Treasure Hunters/Pirate Treasure/Sprites/Small Maps/Small Map 4/01.png
-  artifactKey: Guid(e4bae623ef99bff4cbd744b73290cae8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetPack/Treasure Hunters/Pirate Treasure/Sprites/Small Maps/Small Map 4/01.png using Guid(e4bae623ef99bff4cbd744b73290cae8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c25eebc6429ddd5c806e0265c4f8ff0') in 0.026616 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000275 seconds.
-  path: Assets/AssetPack/Treasure Hunters/Pirate Treasure/Sprites/Map Effect/In/01.png
-  artifactKey: Guid(324836a68d763294d8fcb551d032d962) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetPack/Treasure Hunters/Pirate Treasure/Sprites/Map Effect/In/01.png using Guid(324836a68d763294d8fcb551d032d962) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ed6fad726c415cc8447e2345e5172a3') in 0.019504 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000235 seconds.
-  path: Assets/AssetPack/Treasure Hunters/Pirate Treasure/Sprites/Red Potion/01.png
-  artifactKey: Guid(fd13bd7a6fbd11f45b480bf1ca607d1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetPack/Treasure Hunters/Pirate Treasure/Sprites/Red Potion/01.png using Guid(fd13bd7a6fbd11f45b480bf1ca607d1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ee7c64bed5335bfa379ce7869f4ee32') in 0.019983 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000221 seconds.
-  path: Assets/AssetPack/Treasure Hunters/Pirate Ship/Sprites/Decorations/Chains/Big/01.png
-  artifactKey: Guid(da902eb1293aac44186f3ee024d33de2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetPack/Treasure Hunters/Pirate Ship/Sprites/Decorations/Chains/Big/01.png using Guid(da902eb1293aac44186f3ee024d33de2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb2e3d93a568c4ff0842381e56c497b5') in 0.031530 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000230 seconds.
-  path: Assets/AssetPack/Treasure Hunters/Pirate Treasure/Sprites/Diamond Effect/01.png
-  artifactKey: Guid(0171bd59c51123d4b8262ccfcb4751cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetPack/Treasure Hunters/Pirate Treasure/Sprites/Diamond Effect/01.png using Guid(0171bd59c51123d4b8262ccfcb4751cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8f765647b87869624019ddbe34dbd28') in 0.024454 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000264 seconds.
-  path: Assets/AssetPack/Treasure Hunters/Pirate Treasure/Sprites/Red Diamond/01.png
-  artifactKey: Guid(216f09dc414fe2b44a78e5461a688e48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetPack/Treasure Hunters/Pirate Treasure/Sprites/Red Diamond/01.png using Guid(216f09dc414fe2b44a78e5461a688e48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e350e0e7abec6205f809d34545f68d4e') in 0.021242 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000235 seconds.
-  path: Assets/AssetPack/Treasure Hunters/Merchant Ship/Sprites/Box/Hit/1.png
-  artifactKey: Guid(242f60067d124e949b08142cb18fda3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetPack/Treasure Hunters/Merchant Ship/Sprites/Box/Hit/1.png using Guid(242f60067d124e949b08142cb18fda3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13a96852be83f9ec146b8acf267d5ccc') in 0.020694 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000219 seconds.
-  path: Assets/AssetPack/Treasure Hunters/Pirate Treasure/Sprites/Big Map/Idle/01.png
-  artifactKey: Guid(eb0cb61eb90beb34aac8bf4518ff3cda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetPack/Treasure Hunters/Pirate Treasure/Sprites/Big Map/Idle/01.png using Guid(eb0cb61eb90beb34aac8bf4518ff3cda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6deda855c6a7e92d75fe923d97e6035a') in 0.023854 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000254 seconds.
-  path: Assets/AssetPack/Treasure Hunters/Pirate Treasure/Sprites/Coin Effect/01.png
-  artifactKey: Guid(a134e595fad168e4ca1a14898f94d034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetPack/Treasure Hunters/Pirate Treasure/Sprites/Coin Effect/01.png using Guid(a134e595fad168e4ca1a14898f94d034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c56b9f7704dd793b625b7bac63640f4b') in 0.019549 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000243 seconds.
-  path: Assets/AssetPack/Treasure Hunters/Wood and Paper UI/Sprites/Orange Paper/1.png
-  artifactKey: Guid(7ed05ecb9bdccb6448f95a27a8457874) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetPack/Treasure Hunters/Wood and Paper UI/Sprites/Orange Paper/1.png using Guid(7ed05ecb9bdccb6448f95a27a8457874) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ccb3945eb5666e0d99cfab74391ed3a') in 0.025139 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000262 seconds.
-  path: Assets/AssetPack/Treasure Hunters/Pirate Treasure/Sprites/Green Bottle/01.png
-  artifactKey: Guid(f0dc12920027d0f43812541f17c6cf0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetPack/Treasure Hunters/Pirate Treasure/Sprites/Green Bottle/01.png using Guid(f0dc12920027d0f43812541f17c6cf0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '593519e1617639b2450815609e235d86') in 0.019379 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000182 seconds.
-  path: Assets/AssetPack/Treasure Hunters/Pirate Treasure/Sprites/Small Maps/Small Map 1/01.png
-  artifactKey: Guid(d240f72398d361e408f7624821409548) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetPack/Treasure Hunters/Pirate Treasure/Sprites/Small Maps/Small Map 1/01.png using Guid(d240f72398d361e408f7624821409548) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16ac6f69d87abe228142510c21220250') in 0.020276 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000235 seconds.
-  path: Assets/AssetPack/Treasure Hunters/Pirate Ship/Sprites/Decorations/Door/Opening/01.png
-  artifactKey: Guid(44bcfbdb43c5d6f4a9e27fa8a816b6cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetPack/Treasure Hunters/Pirate Ship/Sprites/Decorations/Door/Opening/01.png using Guid(44bcfbdb43c5d6f4a9e27fa8a816b6cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed73dd493086c9470d9c4475568c4624') in 0.020279 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000218 seconds.
-  path: Assets/AssetPack/Treasure Hunters/Pirate Treasure/Sprites/Big Map/Folding/01.png
-  artifactKey: Guid(054bc724a4f6c99409ae72d7b09d42f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetPack/Treasure Hunters/Pirate Treasure/Sprites/Big Map/Folding/01.png using Guid(054bc724a4f6c99409ae72d7b09d42f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cfd603f496dc01c3c5a79275e6499cb') in 0.026047 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000208 seconds.
-  path: Assets/AssetPack/Treasure Hunters/Pirate Treasure/Sprites/Skull Effect/01.png
-  artifactKey: Guid(eb8a2423a57321a438ab9a1a73764a5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetPack/Treasure Hunters/Pirate Treasure/Sprites/Skull Effect/01.png using Guid(eb8a2423a57321a438ab9a1a73764a5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29e99c767a46e779d9626dccf963de1d') in 0.019005 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000237 seconds.
-  path: Assets/AssetPack/Treasure Hunters/Merchant Ship/Sprites/Box/Idle/1.png
-  artifactKey: Guid(78831b2f0f7492b43af2d431e4bfad43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetPack/Treasure Hunters/Merchant Ship/Sprites/Box/Idle/1.png using Guid(78831b2f0f7492b43af2d431e4bfad43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63f19ed572293e4fe4da8d7e9b337395') in 0.026991 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000247 seconds.
-  path: Assets/AssetPack/Treasure Hunters/Pirate Ship/Sprites/Decorations/Candle/Candle Light/01.png
-  artifactKey: Guid(0417af71a23743d448e6417ed5605be0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetPack/Treasure Hunters/Pirate Ship/Sprites/Decorations/Candle/Candle Light/01.png using Guid(0417af71a23743d448e6417ed5605be0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bd988eff47c869f3b11985895d3ecaa') in 0.027477 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000249 seconds.
-  path: Assets/AssetPack/Treasure Hunters/Pirate Treasure/Sprites/Green Diamond/01.png
-  artifactKey: Guid(87f9115102fd8424093d578786918648) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetPack/Treasure Hunters/Pirate Treasure/Sprites/Green Diamond/01.png using Guid(87f9115102fd8424093d578786918648) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8061ce46ab5eed7ac86de36104214f86') in 0.019378 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004380 seconds.
+Registered in 0.004389 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.89 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.85 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.215 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.87 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3422 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 135.1 MB.
+System memory in use after: 135.2 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3958.
+Total: 3.952300 ms (FindLiveObjects: 0.566200 ms CreateObjectMapping: 0.161200 ms MarkObjects: 3.086800 ms  DeleteObjects: 0.136500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004247 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.84 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.214 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.87 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3422 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 135.1 MB.
+System memory in use after: 135.2 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3962.
+Total: 3.598800 ms (FindLiveObjects: 0.371200 ms CreateObjectMapping: 0.089400 ms MarkObjects: 2.650700 ms  DeleteObjects: 0.485700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004248 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.86 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
 - Completed reload, in  1.248 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.92 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.86 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3456 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 150.7 MB.
-System memory in use after: 150.8 MB.
+Unloading 3422 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 135.1 MB.
+System memory in use after: 135.3 MB.
 
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 4550.
-Total: 3.136200 ms (FindLiveObjects: 0.362000 ms CreateObjectMapping: 0.088900 ms MarkObjects: 2.576000 ms  DeleteObjects: 0.108200 ms)
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3966.
+Total: 2.640800 ms (FindLiveObjects: 0.331000 ms CreateObjectMapping: 0.086100 ms MarkObjects: 2.109700 ms  DeleteObjects: 0.112700 ms)
 
-========================================================================
-Received Import Request.
-  Time since last request: 28.618040 seconds.
-  path: Assets/AssetPack/Treasure Hunters/Palm Tree Island/Sprites/Background/Additional Sky.png
-  artifactKey: Guid(79d6cc8b3017d564587657b88c3e0574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetPack/Treasure Hunters/Palm Tree Island/Sprites/Background/Additional Sky.png using Guid(79d6cc8b3017d564587657b88c3e0574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '153ef08ca2199e58ede78ae35a4491da') in 0.083945 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000175 seconds.
-  path: Assets/AssetPack/Treasure Hunters/The Crusty Crew/Sprites/Crabby/06-Anticipation/Anticipation 01.png
-  artifactKey: Guid(efcf6d3b8c701544ca006848362c3a8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetPack/Treasure Hunters/The Crusty Crew/Sprites/Crabby/06-Anticipation/Anticipation 01.png using Guid(efcf6d3b8c701544ca006848362c3a8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c573de27c010149137cb15051399c9e7') in 0.023356 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000188 seconds.
-  path: Assets/AssetPack/Treasure Hunters/Captain Clown Nose/Sprites/Captain Clown Nose/Sword Effects/25-Attack 2/Attack 2 01.png
-  artifactKey: Guid(18b381de72e36ae4a8f14b347bb2b7b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetPack/Treasure Hunters/Captain Clown Nose/Sprites/Captain Clown Nose/Sword Effects/25-Attack 2/Attack 2 01.png using Guid(18b381de72e36ae4a8f14b347bb2b7b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df9f67f2e7d9f217d01f95d15b70d819') in 0.025318 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000269 seconds.
-  path: Assets/AssetPack/Treasure Hunters/Palm Tree Island/Sprites/Background/Additional Water.png
-  artifactKey: Guid(c68ede1d6b284e5448ab74d66ad6382f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetPack/Treasure Hunters/Palm Tree Island/Sprites/Background/Additional Water.png using Guid(c68ede1d6b284e5448ab74d66ad6382f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8207545b38b7aa7a316ccea2ee844cc2') in 0.036747 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000321 seconds.
-  path: Assets/AssetPack/Treasure Hunters/Captain Clown Nose/Sprites/Captain Clown Nose/Sword Effects/24-Attack 1/Attack 1 03.png
-  artifactKey: Guid(1e0fbc655041b1846ab5a59b787f2d89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetPack/Treasure Hunters/Captain Clown Nose/Sprites/Captain Clown Nose/Sword Effects/24-Attack 1/Attack 1 03.png using Guid(1e0fbc655041b1846ab5a59b787f2d89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5079d63163f857a5f720a1340b36866f') in 0.026891 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000247 seconds.
-  path: Assets/AssetPack/Treasure Hunters/Captain Clown Nose/Sprites/Captain Clown Nose/Captain Clown Nose with Sword/19-Air Attack 2/Air Attack 2 01.png
-  artifactKey: Guid(f7bb325e2890ffc4b89ac0fef00e81b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetPack/Treasure Hunters/Captain Clown Nose/Sprites/Captain Clown Nose/Captain Clown Nose with Sword/19-Air Attack 2/Air Attack 2 01.png using Guid(f7bb325e2890ffc4b89ac0fef00e81b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '765363dc2a50205180ee376248ed33dc') in 0.025430 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000203 seconds.
-  path: Assets/AssetPack/Treasure Hunters/The Crusty Crew/Sprites/Fierce Tooth/06-Anticipation/Anticipation 03.png
-  artifactKey: Guid(6efc53e7847a190469a4a99ca40d4599) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetPack/Treasure Hunters/The Crusty Crew/Sprites/Fierce Tooth/06-Anticipation/Anticipation 03.png using Guid(6efc53e7847a190469a4a99ca40d4599) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0050ccf48682a165ac70b46663293db6') in 0.033069 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000238 seconds.
-  path: Assets/AssetPack/Treasure Hunters/Captain Clown Nose/Sprites/Captain Clown Nose/Captain Clown Nose with Sword/19-Air Attack 2/Air Attack 2 03.png
-  artifactKey: Guid(49f8a739f9fca9244ace795ada3c1b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetPack/Treasure Hunters/Captain Clown Nose/Sprites/Captain Clown Nose/Captain Clown Nose with Sword/19-Air Attack 2/Air Attack 2 03.png using Guid(49f8a739f9fca9244ace795ada3c1b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2512f35641713bfc913bf32fffe92c64') in 0.022460 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000217 seconds.
-  path: Assets/AssetPack/Treasure Hunters/Captain Clown Nose/Sprites/Captain Clown Nose/Sword Effects/28-Air Attack 2/Air Attack 2 02.png
-  artifactKey: Guid(2e8b75c5858a2d14db15546e1ede7aa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetPack/Treasure Hunters/Captain Clown Nose/Sprites/Captain Clown Nose/Sword Effects/28-Air Attack 2/Air Attack 2 02.png using Guid(2e8b75c5858a2d14db15546e1ede7aa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dba62cb3a13d6aa9187450ac25f08d65') in 0.021750 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000245 seconds.
-  path: Assets/AssetPack/Treasure Hunters/The Crusty Crew/Sprites/Fierce Tooth/06-Anticipation/Anticipation 02.png
-  artifactKey: Guid(c419f2762db13224a9313301b3fd1769) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetPack/Treasure Hunters/The Crusty Crew/Sprites/Fierce Tooth/06-Anticipation/Anticipation 02.png using Guid(c419f2762db13224a9313301b3fd1769) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c45bfc33a0bc34f6930cd3461d69571') in 0.028103 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000269 seconds.
-  path: Assets/AssetPack/Treasure Hunters/The Crusty Crew/Sprites/Pink Star/06-Anticipation/Anticipation 03.png
-  artifactKey: Guid(2585bae91ebd82742bd59a80d5b95a51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetPack/Treasure Hunters/The Crusty Crew/Sprites/Pink Star/06-Anticipation/Anticipation 03.png using Guid(2585bae91ebd82742bd59a80d5b95a51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3effbebfec182a33c05d07c04488449e') in 0.031099 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000214 seconds.
-  path: Assets/AssetPack/Treasure Hunters/Captain Clown Nose/Sprites/Captain Clown Nose/Sword Effects/27-Air Attack 1/Air Attack 1 01.png
-  artifactKey: Guid(cfb1598603d123f46a3fef082f3939c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetPack/Treasure Hunters/Captain Clown Nose/Sprites/Captain Clown Nose/Sword Effects/27-Air Attack 1/Air Attack 1 01.png using Guid(cfb1598603d123f46a3fef082f3939c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99049f863f668d7369a5440b9c5aa578') in 0.036622 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000227 seconds.
-  path: Assets/AssetPack/Treasure Hunters/The Crusty Crew/Sprites/Fierce Tooth/07-Attack/Attack 02.png
-  artifactKey: Guid(82c0f92f2a4e77d4386533ffe414588b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetPack/Treasure Hunters/The Crusty Crew/Sprites/Fierce Tooth/07-Attack/Attack 02.png using Guid(82c0f92f2a4e77d4386533ffe414588b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92ed110251625c6886bf02661e8cc6f1') in 0.023593 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000221 seconds.
-  path: Assets/AssetPack/Treasure Hunters/Captain Clown Nose/Sprites/Captain Clown Nose/Sword Effects/24-Attack 1/Attack 1 01.png
-  artifactKey: Guid(51e8b6acc8a7bcf49b054ddf1d44d16b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetPack/Treasure Hunters/Captain Clown Nose/Sprites/Captain Clown Nose/Sword Effects/24-Attack 1/Attack 1 01.png using Guid(51e8b6acc8a7bcf49b054ddf1d44d16b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3bc5b72cb64d09fbecf4abec5048969') in 0.026400 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000255 seconds.
-  path: Assets/AssetPack/Treasure Hunters/The Crusty Crew/Sprites/Fierce Tooth/06-Anticipation/Anticipation 01.png
-  artifactKey: Guid(5a98bb7ce994b384ab2cf3d218d6bc96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetPack/Treasure Hunters/The Crusty Crew/Sprites/Fierce Tooth/06-Anticipation/Anticipation 01.png using Guid(5a98bb7ce994b384ab2cf3d218d6bc96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd7034574f0ea93255ec0dd6b776b326') in 0.019543 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000211 seconds.
-  path: Assets/AssetPack/Treasure Hunters/Captain Clown Nose/Sprites/Captain Clown Nose/Captain Clown Nose with Sword/18-Air Attack 1/Air Attack 1 02.png
-  artifactKey: Guid(6af6b9557e8b62c45af644f51f794f21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetPack/Treasure Hunters/Captain Clown Nose/Sprites/Captain Clown Nose/Captain Clown Nose with Sword/18-Air Attack 1/Air Attack 1 02.png using Guid(6af6b9557e8b62c45af644f51f794f21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e6cc948f180d8d0c4469553fe6a888d') in 0.029641 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000243 seconds.
-  path: Assets/AssetPack/Treasure Hunters/The Crusty Crew/Sprites/Pink Star/06-Anticipation/Anticipation 01.png
-  artifactKey: Guid(269046acb1c6f8b49be98d05c8a53136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetPack/Treasure Hunters/The Crusty Crew/Sprites/Pink Star/06-Anticipation/Anticipation 01.png using Guid(269046acb1c6f8b49be98d05c8a53136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a66526eef1d1c26d70ab5fe9b7f51ad0') in 0.020185 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000262 seconds.
-  path: Assets/AssetPack/Treasure Hunters/Captain Clown Nose/Sprites/Captain Clown Nose/Sword Effects/24-Attack 1/Attack 1 02.png
-  artifactKey: Guid(8cdde054faf1d2c45a8bf68311dfa9cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetPack/Treasure Hunters/Captain Clown Nose/Sprites/Captain Clown Nose/Sword Effects/24-Attack 1/Attack 1 02.png using Guid(8cdde054faf1d2c45a8bf68311dfa9cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71e417e68251cb46046c053314cd08bc') in 0.020563 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000272 seconds.
-  path: Assets/AssetPack/Treasure Hunters/Captain Clown Nose/Sprites/Captain Clown Nose/Captain Clown Nose with Sword/18-Air Attack 1/Air Attack 1 01.png
-  artifactKey: Guid(9c6ac05092aaa7f4b9c24d0591fa19ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetPack/Treasure Hunters/Captain Clown Nose/Sprites/Captain Clown Nose/Captain Clown Nose with Sword/18-Air Attack 1/Air Attack 1 01.png using Guid(9c6ac05092aaa7f4b9c24d0591fa19ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24adc4251e04679c6e8f999724ee0395') in 0.031484 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000374 seconds.
-  path: Assets/AssetPack/Treasure Hunters/Captain Clown Nose/Sprites/Captain Clown Nose/Sword Effects/28-Air Attack 2/Air Attack 2 01.png
-  artifactKey: Guid(fa564a7d15093a144a2ee9f1e051516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetPack/Treasure Hunters/Captain Clown Nose/Sprites/Captain Clown Nose/Sword Effects/28-Air Attack 2/Air Attack 2 01.png using Guid(fa564a7d15093a144a2ee9f1e051516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18270268d0ae20a09027225c0d4b89f6') in 0.030490 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000195 seconds.
-  path: Assets/AssetPack/Treasure Hunters/The Crusty Crew/Sprites/Pink Star/06-Anticipation/Anticipation 02.png
-  artifactKey: Guid(6d7e2c392e881cb44a86089a78374f6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetPack/Treasure Hunters/The Crusty Crew/Sprites/Pink Star/06-Anticipation/Anticipation 02.png using Guid(6d7e2c392e881cb44a86089a78374f6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc683ceef14b421e149a6382d240857d') in 0.019945 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000180 seconds.
-  path: Assets/AssetPack/Treasure Hunters/The Crusty Crew/Sprites/Crabby/06-Anticipation/Anticipation 02.png
-  artifactKey: Guid(8596217475e3971438deef91c5813e91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetPack/Treasure Hunters/The Crusty Crew/Sprites/Crabby/06-Anticipation/Anticipation 02.png using Guid(8596217475e3971438deef91c5813e91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e52465f037c8556921e2a3994cd48090') in 0.028004 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000251 seconds.
-  path: Assets/AssetPack/Treasure Hunters/Captain Clown Nose/Sprites/Captain Clown Nose/Captain Clown Nose with Sword/18-Air Attack 1/Air Attack 1 03.png
-  artifactKey: Guid(49ae001fe9fab4b41af6a0ccd3e64336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetPack/Treasure Hunters/Captain Clown Nose/Sprites/Captain Clown Nose/Captain Clown Nose with Sword/18-Air Attack 1/Air Attack 1 03.png using Guid(49ae001fe9fab4b41af6a0ccd3e64336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e5b17359df38b52c673b7ac08e3a324') in 0.024184 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000217 seconds.
-  path: Assets/AssetPack/Treasure Hunters/The Crusty Crew/Sprites/Pink Star/07-Attack/Attack 02.png
-  artifactKey: Guid(2d4d9641d3d65e34dbcb33981dd404d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetPack/Treasure Hunters/The Crusty Crew/Sprites/Pink Star/07-Attack/Attack 02.png using Guid(2d4d9641d3d65e34dbcb33981dd404d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aab1582aefc6e11ad1fa62c61b67fa59') in 0.019734 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000257 seconds.
-  path: Assets/AssetPack/Treasure Hunters/Captain Clown Nose/Sprites/Captain Clown Nose/Sword Effects/27-Air Attack 1/Air Attack 1 02.png
-  artifactKey: Guid(d28d39306050d664aab02a36310b9b84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetPack/Treasure Hunters/Captain Clown Nose/Sprites/Captain Clown Nose/Sword Effects/27-Air Attack 1/Air Attack 1 02.png using Guid(d28d39306050d664aab02a36310b9b84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5fbc5ca0ec12050b339335f8d35fdc4') in 0.032190 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000215 seconds.
-  path: Assets/AssetPack/Treasure Hunters/The Crusty Crew/Sprites/Crabby/07-Attack/Attack 02.png
-  artifactKey: Guid(4c5d8fae05da8364982e8f66e882e29f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetPack/Treasure Hunters/The Crusty Crew/Sprites/Crabby/07-Attack/Attack 02.png using Guid(4c5d8fae05da8364982e8f66e882e29f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '462230a8bd3b53e9987f45bea901ff50') in 0.028648 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000205 seconds.
-  path: Assets/AssetPack/Treasure Hunters/The Crusty Crew/Sprites/Crabby/06-Anticipation/Anticipation 03.png
-  artifactKey: Guid(337c690bbd6db6440869b35f26940f36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetPack/Treasure Hunters/The Crusty Crew/Sprites/Crabby/06-Anticipation/Anticipation 03.png using Guid(337c690bbd6db6440869b35f26940f36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de0e46d51308f33f4ad4c0b806f2824d') in 0.025822 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000253 seconds.
-  path: Assets/AssetPack/Treasure Hunters/Captain Clown Nose/Sprites/Captain Clown Nose/Captain Clown Nose with Sword/19-Air Attack 2/Air Attack 2 02.png
-  artifactKey: Guid(de5e014add17ea34994149debdc86cc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetPack/Treasure Hunters/Captain Clown Nose/Sprites/Captain Clown Nose/Captain Clown Nose with Sword/19-Air Attack 2/Air Attack 2 02.png using Guid(de5e014add17ea34994149debdc86cc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b81a653e3286ca1282d940e552b1aaf2') in 0.024296 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004590 seconds.
+Registered in 0.005515 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.92 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.97 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unable to allocate new scene culling mask
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
-UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
-UnityEditor.PreviewScene:.ctor (string)
-UnityEditor.PreviewRenderUtility:.ctor ()
-UnityEditor.Texture3DPreview:InitPreviewUtility ()
-UnityEditor.Texture3DPreview:OnEnable ()
-
-[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
-
-Unable to allocate new scene culling mask
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
-UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
-UnityEditor.PreviewScene:.ctor (string)
-UnityEditor.PreviewRenderUtility:.ctor ()
-UnityEditor.Texture3DPreview:InitPreviewUtility ()
-UnityEditor.Texture3DPreview:OnEnable ()
-
-[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
-
 Mono: successfully reloaded assembly
-- Completed reload, in  1.213 seconds
+- Completed reload, in  1.253 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.89 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.43 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3449 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 161.7 MB.
-System memory in use after: 161.9 MB.
+Unloading 3422 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 135.2 MB.
+System memory in use after: 135.3 MB.
 
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 4989.
-Total: 3.084400 ms (FindLiveObjects: 0.426100 ms CreateObjectMapping: 0.092500 ms MarkObjects: 2.445700 ms  DeleteObjects: 0.118100 ms)
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3970.
+Total: 3.153700 ms (FindLiveObjects: 0.357400 ms CreateObjectMapping: 0.088500 ms MarkObjects: 2.585600 ms  DeleteObjects: 0.120300 ms)
 
+========================================================================
+Received Import Request.
+  Time since last request: 3818.048240 seconds.
+  path: Assets/_Scripts/Tooth.cs
+  artifactKey: Guid(e2aa67faae6f9d24699f2c31c8f96646) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/Tooth.cs using Guid(e2aa67faae6f9d24699f2c31c8f96646) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a15ea7e34b93a5fdf3f00a62a632f3bd') in 0.027762 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004372 seconds.
+Registered in 0.004879 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.07 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.84 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unable to allocate new scene culling mask
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
-UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
-UnityEditor.PreviewScene:.ctor (string)
-UnityEditor.PreviewRenderUtility:.ctor ()
-UnityEditor.Texture3DPreview:InitPreviewUtility ()
-UnityEditor.Texture3DPreview:OnEnable ()
-
-[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
-
-Unable to allocate new scene culling mask
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
-UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
-UnityEditor.PreviewScene:.ctor (string)
-UnityEditor.PreviewRenderUtility:.ctor ()
-UnityEditor.Texture3DPreview:InitPreviewUtility ()
-UnityEditor.Texture3DPreview:OnEnable ()
-
-[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
-
 Mono: successfully reloaded assembly
-- Completed reload, in  1.211 seconds
+- Completed reload, in  1.324 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.90 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3421 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 160.8 MB.
-System memory in use after: 160.9 MB.
+Unloading 3423 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 135.2 MB.
+System memory in use after: 135.3 MB.
 
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 4993.
-Total: 3.312900 ms (FindLiveObjects: 0.437300 ms CreateObjectMapping: 0.091700 ms MarkObjects: 2.664200 ms  DeleteObjects: 0.118300 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004243 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.67 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unable to allocate new scene culling mask
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
-UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
-UnityEditor.PreviewScene:.ctor (string)
-UnityEditor.PreviewRenderUtility:.ctor ()
-UnityEditor.Texture3DPreview:InitPreviewUtility ()
-UnityEditor.Texture3DPreview:OnEnable ()
-
-[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
-
-Unable to allocate new scene culling mask
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
-UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
-UnityEditor.PreviewScene:.ctor (string)
-UnityEditor.PreviewRenderUtility:.ctor ()
-UnityEditor.Texture3DPreview:InitPreviewUtility ()
-UnityEditor.Texture3DPreview:OnEnable ()
-
-[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.185 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.89 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3421 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 160.8 MB.
-System memory in use after: 160.9 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 4997.
-Total: 3.396500 ms (FindLiveObjects: 0.433900 ms CreateObjectMapping: 0.096600 ms MarkObjects: 2.719100 ms  DeleteObjects: 0.145100 ms)
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3975.
+Total: 3.945800 ms (FindLiveObjects: 0.523800 ms CreateObjectMapping: 0.167700 ms MarkObjects: 3.108100 ms  DeleteObjects: 0.144500 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.007956 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.88 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unable to allocate new scene culling mask
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
-UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
-UnityEditor.PreviewScene:.ctor (string)
-UnityEditor.PreviewRenderUtility:.ctor ()
-UnityEditor.Texture3DPreview:InitPreviewUtility ()
-UnityEditor.Texture3DPreview:OnEnable ()
-
-[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
-
-Unable to allocate new scene culling mask
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
-UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
-UnityEditor.PreviewScene:.ctor (string)
-UnityEditor.PreviewRenderUtility:.ctor ()
-UnityEditor.Texture3DPreview:InitPreviewUtility ()
-UnityEditor.Texture3DPreview:OnEnable ()
-
-[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.179 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.88 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3421 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 160.9 MB.
-System memory in use after: 161.0 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 5001.
-Total: 3.397200 ms (FindLiveObjects: 0.566300 ms CreateObjectMapping: 0.095200 ms MarkObjects: 2.616300 ms  DeleteObjects: 0.117500 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004235 seconds.
+Registered in 0.004510 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.92 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unable to allocate new scene culling mask
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
-UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
-UnityEditor.PreviewScene:.ctor (string)
-UnityEditor.PreviewRenderUtility:.ctor ()
-UnityEditor.Texture3DPreview:InitPreviewUtility ()
-UnityEditor.Texture3DPreview:OnEnable ()
-
-[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
-
-Unable to allocate new scene culling mask
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
-UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
-UnityEditor.PreviewScene:.ctor (string)
-UnityEditor.PreviewRenderUtility:.ctor ()
-UnityEditor.Texture3DPreview:InitPreviewUtility ()
-UnityEditor.Texture3DPreview:OnEnable ()
-
-[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
-
 Mono: successfully reloaded assembly
-- Completed reload, in  1.171 seconds
+- Completed reload, in  1.296 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.89 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.03 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3421 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 160.9 MB.
-System memory in use after: 161.0 MB.
+Unloading 3423 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 135.2 MB.
+System memory in use after: 135.3 MB.
 
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 5005.
-Total: 3.611800 ms (FindLiveObjects: 0.672600 ms CreateObjectMapping: 0.135800 ms MarkObjects: 2.684500 ms  DeleteObjects: 0.117400 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004902 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.88 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unable to allocate new scene culling mask
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
-UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
-UnityEditor.PreviewScene:.ctor (string)
-UnityEditor.PreviewRenderUtility:.ctor ()
-UnityEditor.Texture3DPreview:InitPreviewUtility ()
-UnityEditor.Texture3DPreview:OnEnable ()
-
-[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
-
-Unable to allocate new scene culling mask
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
-UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
-UnityEditor.PreviewScene:.ctor (string)
-UnityEditor.PreviewRenderUtility:.ctor ()
-UnityEditor.Texture3DPreview:InitPreviewUtility ()
-UnityEditor.Texture3DPreview:OnEnable ()
-
-[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.228 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.93 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3421 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 160.9 MB.
-System memory in use after: 161.1 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 5009.
-Total: 4.440800 ms (FindLiveObjects: 0.504900 ms CreateObjectMapping: 0.095600 ms MarkObjects: 3.703800 ms  DeleteObjects: 0.134900 ms)
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3979.
+Total: 2.676300 ms (FindLiveObjects: 0.317200 ms CreateObjectMapping: 0.084200 ms MarkObjects: 2.156300 ms  DeleteObjects: 0.117100 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 132.492758 seconds.
-  path: Assets/AssetPack/Treasure Hunters/Captain Clown Nose/Sprites/Captain Clown Nose/Captain Clown Nose without Sword/06-Hit
-  artifactKey: Guid(f899525608eda124b80a3356437d2100) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetPack/Treasure Hunters/Captain Clown Nose/Sprites/Captain Clown Nose/Captain Clown Nose without Sword/06-Hit using Guid(f899525608eda124b80a3356437d2100) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a32e66232377182c9817b4ff690db84b') in 0.013522 seconds 
+  Time since last request: 119.966651 seconds.
+  path: Assets/AssetPack/Treasure Hunters/The Crusty Crew/Sprites/Fierce Tooth/09-Dead Hit/Dead Hit 03.png
+  artifactKey: Guid(0019acaba203a0c4393b99d2cfed62a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPack/Treasure Hunters/The Crusty Crew/Sprites/Fierce Tooth/09-Dead Hit/Dead Hit 03.png using Guid(0019acaba203a0c4393b99d2cfed62a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cc459abd0672813874a623938344582') in 0.131698 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.531168 seconds.
-  path: Assets/AssetPack/Treasure Hunters/Captain Clown Nose/Sprites/Captain Clown Nose/Captain Clown Nose without Sword/06-Hit/Hit 01.png
-  artifactKey: Guid(6b1eb7d5a93583444a2da53c3e2ded2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetPack/Treasure Hunters/Captain Clown Nose/Sprites/Captain Clown Nose/Captain Clown Nose without Sword/06-Hit/Hit 01.png using Guid(6b1eb7d5a93583444a2da53c3e2ded2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Unable to allocate new scene culling mask
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
-UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
-UnityEditor.PreviewScene:.ctor (string)
-UnityEditor.PreviewRenderUtility:.ctor ()
-UnityEditor.Texture3DPreview:InitPreviewUtility ()
-UnityEditor.Texture3DPreview:OnEnable ()
-UnityEngine.ScriptableObject:CreateInstance (System.Type)
-UnityEngine.ScriptableObject:CreateInstance<UnityEditor.Texture3DPreview> ()
-UnityEditor.TextureInspector:OnEnable ()
-UnityEditor.Editor:CreateEditorWithContext (UnityEngine.Object[],UnityEngine.Object,System.Type)
-UnityEditor.Editor:CreateEditor (UnityEngine.Object,System.Type)
-UnityEditor.Editor:CreateEditor (UnityEngine.Object)
-UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
-
- -> (artifact id: '28028968f54a6e7f7cf837d314973bb6') in 0.073720 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 26.618766 seconds.
-  path: Assets/AssetPack/Treasure Hunters/Captain Clown Nose/Sprites/Captain Clown Nose/Captain Clown Nose with Sword/14-Hit Sword/Hit Sword 01.png
-  artifactKey: Guid(7d8c4d6aa45996048adb20207e079b5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetPack/Treasure Hunters/Captain Clown Nose/Sprites/Captain Clown Nose/Captain Clown Nose with Sword/14-Hit Sword/Hit Sword 01.png using Guid(7d8c4d6aa45996048adb20207e079b5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Unable to allocate new scene culling mask
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
-UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
-UnityEditor.PreviewScene:.ctor (string)
-UnityEditor.PreviewRenderUtility:.ctor ()
-UnityEditor.Texture3DPreview:InitPreviewUtility ()
-UnityEditor.Texture3DPreview:OnEnable ()
-UnityEngine.ScriptableObject:CreateInstance (System.Type)
-UnityEngine.ScriptableObject:CreateInstance<UnityEditor.Texture3DPreview> ()
-UnityEditor.TextureInspector:OnEnable ()
-UnityEditor.Editor:CreateEditorWithContext (UnityEngine.Object[],UnityEngine.Object,System.Type)
-UnityEditor.Editor:CreateEditor (UnityEngine.Object,System.Type)
-UnityEditor.Editor:CreateEditor (UnityEngine.Object)
-UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
-
- -> (artifact id: 'ccfb64fe78dc0443186afb605c547cda') in 0.025402 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 58.373011 seconds.
-  path: Assets/playerController.controller
-  artifactKey: Guid(69012e7cef718464faac3ec217248853) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/playerController.controller using Guid(69012e7cef718464faac3ec217248853) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2eaa2e1a218bd7e79ce2aed4f502550d') in 0.062203 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 48.643976 seconds.
-  path: Assets/Animations/playerHitNoKnife.anim
-  artifactKey: Guid(f0d41ca8d3f20bb4cb60057768e3177b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/playerHitNoKnife.anim using Guid(f0d41ca8d3f20bb4cb60057768e3177b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1725d9aeb293f1125d6a14bf1aa6ec79') in 0.009414 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.744599 seconds.
-  path: Assets/Animations/playerHitNoKnife.anim
-  artifactKey: Guid(f0d41ca8d3f20bb4cb60057768e3177b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/playerHitNoKnife.anim using Guid(f0d41ca8d3f20bb4cb60057768e3177b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dedc6d0e139058e7d82514f5d400e0b') in 0.004193 seconds 
+  Time since last request: 42.882252 seconds.
+  path: Assets/Prefab/Enemies/Tooth/toothDead.prefab
+  artifactKey: Guid(03502903aa506d843b43e9d320729e59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Enemies/Tooth/toothDead.prefab using Guid(03502903aa506d843b43e9d320729e59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9149ba7950c9fd02949106e52e9a7c28') in 0.044908 seconds 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

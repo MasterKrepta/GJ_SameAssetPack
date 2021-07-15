@@ -58,8 +58,7 @@ public class CrabbyMovement : MonoBehaviour
         {
             patrolOrigin = GetOrigin();
             currentState = State.PATROL;
-            
-            //transform.position = patrolOrigin;
+
         }
     }
 
