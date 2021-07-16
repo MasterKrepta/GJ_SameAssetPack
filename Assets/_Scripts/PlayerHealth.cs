@@ -39,5 +39,9 @@ public class PlayerHealth : MonoBehaviour, IDamagable
         anim.SetTrigger("hit");
     }
 
+    public void Heal(float amount)
+    {
+        CurrentHealth += amount;
+    }
  
 }
