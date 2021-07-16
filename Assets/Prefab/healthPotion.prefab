@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 1270551793482954833}
   - component: {fileID: 1270551793482954834}
   - component: {fileID: 1270551793482954837}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: healthPotion
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -166,6 +166,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 546c0a69ddc895e4c8ae3bb8fb6cea16, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  potionAmount: 5
+  potionEffect: {fileID: 2285431492361007290, guid: bd0035cf0ccacea4aba9bb937571c030, type: 3}
 --- !u!1 &1270551793691516288
 GameObject:
   m_ObjectHideFlags: 0
@@ -176,7 +178,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1270551793691516295}
   - component: {fileID: 1270551793691516294}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: collect
   m_TagString: Untagged
   m_Icon: {fileID: 0}

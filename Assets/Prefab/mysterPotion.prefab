@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6778038438364447931}
   - component: {fileID: 6778038438364447930}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: collect
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -59,7 +59,7 @@ GameObject:
   - component: {fileID: 6778038438508125896}
   - component: {fileID: 6778038438508125897}
   - component: {fileID: 6778038438508125902}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: mysterPotion
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -164,3 +164,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8eb3f76e448e1af44996ae344218c039, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  potionAmount: 5
