@@ -1,0 +1,600 @@
+Using pre-set license
+Built from '2021.1/release' branch; Version is '2021.1.4f1 (4cd64a618c1b) revision 5035594'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19042.1083; Version 2009; 64bit' Language: 'en' Physical Memory: 11663 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.1.4f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Users/brian/Documents/Unity games/GJ_SameAssetPack
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+49939
+Successfully changed project path to: C:/Users/brian/Documents/Unity games/GJ_SameAssetPack
+C:/Users/brian/Documents/Unity games/GJ_SameAssetPack
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 201.04 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.1.4f1 (4cd64a618c1b)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.1.4f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/brian/Documents/Unity games/GJ_SameAssetPack/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon R5 Graphics (ID=0x9874)
+    Vendor:   ATI
+    VRAM:     499 MB
+    Driver:   16.101.1611.1003
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.1.4f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.1.4f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56056
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.4f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.013887 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 263.51 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.080 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.012694 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 300.64 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.507 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Refreshing native plugins compatible for Editor in 3.76 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3438 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 130.8 MB.
+System memory in use after: 131.0 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 3897.
+Total: 8.537600 ms (FindLiveObjects: 1.580200 ms CreateObjectMapping: 0.686800 ms MarkObjects: 6.102500 ms  DeleteObjects: 0.162100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.013030 seconds.
+A Native Collection has not been disposed, resulting in a memory leak. Enable Full StackTraces to get more details.
+
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.30 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.120 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.10 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3427 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 130.3 MB.
+System memory in use after: 130.5 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 3901.
+Total: 8.663500 ms (FindLiveObjects: 0.751000 ms CreateObjectMapping: 0.404300 ms MarkObjects: 7.429400 ms  DeleteObjects: 0.074700 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Prefab/candle.prefab
+  artifactKey: Guid(b14811271a10df34a981da997a2ec9cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/candle.prefab using Guid(b14811271a10df34a981da997a2ec9cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (01 4) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+The Animator Controller (01 (1) 2) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+The Animator Controller (01 (1) 2) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+The Animator Controller (01 4) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+ -> (artifact id: 'f8c87a7fac957bc5351222cf702db952') in 0.600841 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.612470 seconds.
+  path: Assets/AssetPack/Treasure Hunters/Pirate Ship/Sprites/Decorations/Chains/Big/01.png
+  artifactKey: Guid(da902eb1293aac44186f3ee024d33de2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPack/Treasure Hunters/Pirate Ship/Sprites/Decorations/Chains/Big/01.png using Guid(da902eb1293aac44186f3ee024d33de2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26fbf8fd688177f7b2b8f55205acfe5e') in 0.297890 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.434760 seconds.
+  path: Assets/AssetPack/Treasure Hunters/Pirate Ship/Sprites/Decorations/Chains/Big/03.png
+  artifactKey: Guid(24180206e0737c74387aa824b5794a8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPack/Treasure Hunters/Pirate Ship/Sprites/Decorations/Chains/Big/03.png using Guid(24180206e0737c74387aa824b5794a8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43454652a19deca50b77f67d55bf075c') in 0.070869 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.043021 seconds.
+  path: Assets/AssetPack/Treasure Hunters/Pirate Ship/Sprites/Decorations/Chains/Small/01.png
+  artifactKey: Guid(a6e0dde1c6014574398bc46a41e44a0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPack/Treasure Hunters/Pirate Ship/Sprites/Decorations/Chains/Small/01.png using Guid(a6e0dde1c6014574398bc46a41e44a0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddfb40f45e133eaec163de4ed1c0ab65') in 0.091695 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.547678 seconds.
+  path: Assets/AssetPack/Treasure Hunters/Pirate Ship/Sprites/Decorations/Chains/Small/05.png
+  artifactKey: Guid(1075160c860131648816d40c53bf0692) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPack/Treasure Hunters/Pirate Ship/Sprites/Decorations/Chains/Small/05.png using Guid(1075160c860131648816d40c53bf0692) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0324cd6ef3553dc2aaa654074803cd92') in 0.054042 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 37.701054 seconds.
+  path: Assets/AssetPack/Treasure Hunters/Pirate Ship/Sprites/Decorations/Barrels and Bottles/03.png
+  artifactKey: Guid(6106e6ae0dd450d4b92d060c4f0ed482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPack/Treasure Hunters/Pirate Ship/Sprites/Decorations/Barrels and Bottles/03.png using Guid(6106e6ae0dd450d4b92d060c4f0ed482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e11b7fd4631fb95f8b4805e3b8313872') in 2.098959 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.526315 seconds.
+  path: Assets/AssetPack/Treasure Hunters/Pirate Ship/Sprites/Decorations/Door/Closing
+  artifactKey: Guid(9ba533c67811cce4e9f2a0320da71802) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPack/Treasure Hunters/Pirate Ship/Sprites/Decorations/Door/Closing using Guid(9ba533c67811cce4e9f2a0320da71802) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbdb666a119e0b366bcf64578b06da42') in 0.047049 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.532860 seconds.
+  path: Assets/AssetPack/Treasure Hunters/Pirate Ship/Sprites/Decorations/Door/Opening
+  artifactKey: Guid(fb01d6ddcba899746b756c24e2735966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPack/Treasure Hunters/Pirate Ship/Sprites/Decorations/Door/Opening using Guid(fb01d6ddcba899746b756c24e2735966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e84515961dec326ab111661b2feb26ea') in 0.025657 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.553201 seconds.
+  path: Assets/AssetPack/Treasure Hunters/Pirate Ship/Sprites/Decorations/Door/Closing/01.png
+  artifactKey: Guid(31c2786221e46ef418eba3f773e2f2c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPack/Treasure Hunters/Pirate Ship/Sprites/Decorations/Door/Closing/01.png using Guid(31c2786221e46ef418eba3f773e2f2c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e1d9dc9b5acc2c2904753cbbdc0ffcb') in 0.050429 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.874774 seconds.
+  path: Assets/AssetPack/Treasure Hunters/Pirate Ship/Sprites/Decorations/Door/Closing/02.png
+  artifactKey: Guid(6f13238635d5aa2419e7b675e8c6d964) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPack/Treasure Hunters/Pirate Ship/Sprites/Decorations/Door/Closing/02.png using Guid(6f13238635d5aa2419e7b675e8c6d964) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3245c81ed4ae5b8f7ffacf37501c2ae') in 0.067272 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.370703 seconds.
+  path: Assets/AssetPack/Treasure Hunters/Pirate Ship/Sprites/Decorations/Door/Closing/03.png
+  artifactKey: Guid(8b0e2308abdb49646b5af086f5dfb2a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPack/Treasure Hunters/Pirate Ship/Sprites/Decorations/Door/Closing/03.png using Guid(8b0e2308abdb49646b5af086f5dfb2a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75a05f4277271e1c2801587a0b96b736') in 0.043764 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.270116 seconds.
+  path: Assets/AssetPack/Treasure Hunters/Pirate Ship/Sprites/Decorations/Door/Closing/04.png
+  artifactKey: Guid(3414ebb0ea2eed345822a60b4d702fec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPack/Treasure Hunters/Pirate Ship/Sprites/Decorations/Door/Closing/04.png using Guid(3414ebb0ea2eed345822a60b4d702fec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b744dcb56cfb894cd0c669ffdbc383ae') in 0.050270 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.911653 seconds.
+  path: Assets/AssetPack/Treasure Hunters/Pirate Ship/Sprites/Decorations/Door/Closing/05.png
+  artifactKey: Guid(9121138c5d4dc3d4b885f071d33e5e8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPack/Treasure Hunters/Pirate Ship/Sprites/Decorations/Door/Closing/05.png using Guid(9121138c5d4dc3d4b885f071d33e5e8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6994c0f1881d7db6e447cf161072b06c') in 0.081754 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.053179 seconds.
+  path: Assets/AssetPack/Treasure Hunters/Pirate Ship/Sprites/Decorations/Window/Window
+  artifactKey: Guid(a7cb7036671898c4bbec718f72c32815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPack/Treasure Hunters/Pirate Ship/Sprites/Decorations/Window/Window using Guid(a7cb7036671898c4bbec718f72c32815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d7707cf3191afef123ad00588203150') in 0.037949 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.070841 seconds.
+  path: Assets/AssetPack/Treasure Hunters/Pirate Ship/Sprites/Decorations/Window/Window/01.png
+  artifactKey: Guid(53a8d7ab6f66b4945b165ec9c0ed7e5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPack/Treasure Hunters/Pirate Ship/Sprites/Decorations/Window/Window/01.png using Guid(53a8d7ab6f66b4945b165ec9c0ed7e5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ea522470ff23631e8fbd821bbce474d') in 0.059603 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.633653 seconds.
+  path: Assets/AssetPack/Treasure Hunters/Pirate Ship/Sprites/Decorations/Window/Window/10.png
+  artifactKey: Guid(a88be6713444f904bb219106e19fccfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPack/Treasure Hunters/Pirate Ship/Sprites/Decorations/Window/Window/10.png using Guid(a88be6713444f904bb219106e19fccfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35510dbe3a9a57973d6d240aa4993718') in 0.062255 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.416091 seconds.
+  path: Assets/AssetPack/Treasure Hunters/Pirate Ship/Sprites/Decorations/Window/Window/09.png
+  artifactKey: Guid(661dbcf55f8d3324eb6b1bd0b352bbdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPack/Treasure Hunters/Pirate Ship/Sprites/Decorations/Window/Window/09.png using Guid(661dbcf55f8d3324eb6b1bd0b352bbdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9c31130ec9bf937bcfca4d750f1cc90') in 0.076946 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.370413 seconds.
+  path: Assets/AssetPack/Treasure Hunters/Pirate Ship/Sprites/Decorations/Window/Window/33.png
+  artifactKey: Guid(842f4dee9b9423c448c9a6b21d90d48f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPack/Treasure Hunters/Pirate Ship/Sprites/Decorations/Window/Window/33.png using Guid(842f4dee9b9423c448c9a6b21d90d48f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83479f6072fc15b9672134277c14c8c6') in 0.047164 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 81.189762 seconds.
+  path: Assets/AssetPack/Treasure Hunters/Pirate Ship/Sprites/Decorations/Barrels and Bottles/01.png
+  artifactKey: Guid(804de6c6fc6b37f45b24ff97acb8907f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPack/Treasure Hunters/Pirate Ship/Sprites/Decorations/Barrels and Bottles/01.png using Guid(804de6c6fc6b37f45b24ff97acb8907f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c501e234fe6100ee11e72d04ed104e8e') in 0.058325 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.344281 seconds.
+  path: Assets/AssetPack/Treasure Hunters/Pirate Ship/Sprites/Decorations/Barrels and Bottles/02.png
+  artifactKey: Guid(70389cdc751416547af730129c3fa014) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPack/Treasure Hunters/Pirate Ship/Sprites/Decorations/Barrels and Bottles/02.png using Guid(70389cdc751416547af730129c3fa014) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c159e1b89fdd8dfed0dec0022d249d50') in 0.046461 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.626210 seconds.
+  path: Assets/AssetPack/Treasure Hunters/Pirate Ship/Sprites/Decorations/Barrels and Bottles/05.png
+  artifactKey: Guid(c9d61d31a65866d449483c194a4f7f83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPack/Treasure Hunters/Pirate Ship/Sprites/Decorations/Barrels and Bottles/05.png using Guid(c9d61d31a65866d449483c194a4f7f83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4447558fc01f4a55ec5b7febdd0be1a') in 0.089968 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.515695 seconds.
+  path: Assets/AssetPack/Treasure Hunters/Pirate Ship/Sprites/Decorations/Barrels and Bottles/06.png
+  artifactKey: Guid(61ab14386cb531d4198a9e16f2f19a6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPack/Treasure Hunters/Pirate Ship/Sprites/Decorations/Barrels and Bottles/06.png using Guid(61ab14386cb531d4198a9e16f2f19a6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '887e759602965d5e9fc59aa547a7cbb8') in 0.113545 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.609838 seconds.
+  path: Assets/AssetPack/Treasure Hunters/Pirate Ship/Sprites/Decorations/Barrels and Bottles/04.png
+  artifactKey: Guid(4fa74cf5ff4dfc74fb35366b891471a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPack/Treasure Hunters/Pirate Ship/Sprites/Decorations/Barrels and Bottles/04.png using Guid(4fa74cf5ff4dfc74fb35366b891471a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23e67e13540cde9330da171898796df8') in 0.054621 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.022679 seconds.
+A Native Collection has not been disposed, resulting in a memory leak. Enable Full StackTraces to get more details.
+
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.20 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.064 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.93 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3446 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 143.0 MB.
+System memory in use after: 143.3 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 4204.
+Total: 6.443500 ms (FindLiveObjects: 0.744700 ms CreateObjectMapping: 0.335700 ms MarkObjects: 5.288100 ms  DeleteObjects: 0.072000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.689656 seconds.
+  path: Assets/Prefab/bigChain.prefab
+  artifactKey: Guid(4ca95893e5145f94a9e71cdf92dc8b95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/bigChain.prefab using Guid(4ca95893e5145f94a9e71cdf92dc8b95) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (01 5) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+The Animator Controller (01 5) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+ -> (artifact id: '23b123bc5924e16e5b6db446916a4a2f') in 0.145984 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.583539 seconds.
+  path: Assets/Prefab/Back Palm Tree Regular 03.prefab
+  artifactKey: Guid(976271af3734a3b4f9a04fb0e90152f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Back Palm Tree Regular 03.prefab using Guid(976271af3734a3b4f9a04fb0e90152f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48c5d0763a63c7a8515b76a5f155ada9') in 0.056779 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.534120 seconds.
+  path: Assets/Prefab/Decorationsisland
+  artifactKey: Guid(f4afce76d05214b4e8da9debb2317a57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Decorationsisland using Guid(f4afce76d05214b4e8da9debb2317a57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '994bb6ae599e1e12a6dd7e8cb7f34685') in 0.016494 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.248126 seconds.
+  path: Assets/Prefab/Decorationsisland 1
+  artifactKey: Guid(e14b7daa975abbb4f895bb37d3c4ab40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Decorationsisland 1 using Guid(e14b7daa975abbb4f895bb37d3c4ab40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc99aa1204f61eb339acd77945e9ac6f') in 0.061297 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.283388 seconds.
+  path: Assets/Prefab/DecorationsPirateship
+  artifactKey: Guid(e14b7daa975abbb4f895bb37d3c4ab40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/DecorationsPirateship using Guid(e14b7daa975abbb4f895bb37d3c4ab40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf9ba61c82e6965cedd9a7864ec7fe5b') in 0.023169 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.859180 seconds.
+  path: Assets/Prefab/DecorationsPirateship 1
+  artifactKey: Guid(1a1d64d9a4cb39041a73e3bda96bf6c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/DecorationsPirateship 1 using Guid(1a1d64d9a4cb39041a73e3bda96bf6c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62839ffbe894c2e6b5beff811d103307') in 0.028395 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.003640 seconds.
+  path: Assets/Prefab/DecorationsShop
+  artifactKey: Guid(1a1d64d9a4cb39041a73e3bda96bf6c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/DecorationsShop using Guid(1a1d64d9a4cb39041a73e3bda96bf6c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '850bd1a8a80a3ff14552fe898c2836a3') in 0.023484 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.205824 seconds.
+  path: Assets/Prefab/DecorationsShop 1
+  artifactKey: Guid(a94c41910599a7c41974b8c778c1ba84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/DecorationsShop 1 using Guid(a94c41910599a7c41974b8c778c1ba84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '029fb7bf90daac29171d6f5fd055bce3') in 0.032867 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.847070 seconds.
+  path: Assets/Prefab/DecorationsCave
+  artifactKey: Guid(a94c41910599a7c41974b8c778c1ba84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/DecorationsCave using Guid(a94c41910599a7c41974b8c778c1ba84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f38a45fc67fec55a171cc3287421966') in 0.047138 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.336537 seconds.
+  path: Assets/Prefab/Chest.prefab
+  artifactKey: Guid(e2cf384a30e16d34fabf6a8546ec9c6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Chest.prefab using Guid(e2cf384a30e16d34fabf6a8546ec9c6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7123799cdd78abc87871dd5536a5c9a5') in 0.089685 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 82.988225 seconds.
+  path: Assets/AssetPack/Treasure Hunters/Palm Tree Island/Sprites/Objects/Flag
+  artifactKey: Guid(7af7f13374f87604a808b6e4ae674444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPack/Treasure Hunters/Palm Tree Island/Sprites/Objects/Flag using Guid(7af7f13374f87604a808b6e4ae674444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ace071a58e0f34036fd47e7231d2454b') in 0.031472 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.277372 seconds.
+  path: Assets/AssetPack/Treasure Hunters/Palm Tree Island/Sprites/Objects/Flag/Flag 01.png
+  artifactKey: Guid(5f6327b004103a64bb415373f7bd9937) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPack/Treasure Hunters/Palm Tree Island/Sprites/Objects/Flag/Flag 01.png using Guid(5f6327b004103a64bb415373f7bd9937) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4ed4a0d7416ba1e2a4f083fc9bf9b28') in 0.100092 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.493980 seconds.
+  path: Assets/AssetPack/Treasure Hunters/Palm Tree Island/Sprites/Objects/Flag/Flag 03.png
+  artifactKey: Guid(1ad5a9f38b74f6248b38bd1a17e55e84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPack/Treasure Hunters/Palm Tree Island/Sprites/Objects/Flag/Flag 03.png using Guid(1ad5a9f38b74f6248b38bd1a17e55e84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f10de168a550b111f4f269ffc16f8111') in 0.056959 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.279110 seconds.
+  path: Assets/AssetPack/Treasure Hunters/Palm Tree Island/Sprites/Objects/Flag/Flag 09.png
+  artifactKey: Guid(9a596a0f4215dc649893969bc8ac5e3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPack/Treasure Hunters/Palm Tree Island/Sprites/Objects/Flag/Flag 09.png using Guid(9a596a0f4215dc649893969bc8ac5e3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '991419544645e10bc8df377df6400400') in 0.064172 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.732280 seconds.
+  path: Assets/AssetPack/Treasure Hunters/Palm Tree Island/Sprites/Objects/Flag/Platform.png
+  artifactKey: Guid(7cabdb9d28507e34a8a7026a9e8aefc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPack/Treasure Hunters/Palm Tree Island/Sprites/Objects/Flag/Platform.png using Guid(7cabdb9d28507e34a8a7026a9e8aefc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '940687e0a5b087a8de6bd88822338d61') in 0.096227 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.565425 seconds.
+  path: Assets/AssetPack/Treasure Hunters/Palm Tree Island/Sprites/Objects/Ship Helm/Ship Helm Idle 01.png
+  artifactKey: Guid(e1f114ad28cadc347b7805a54f08181d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPack/Treasure Hunters/Palm Tree Island/Sprites/Objects/Ship Helm/Ship Helm Idle 01.png using Guid(e1f114ad28cadc347b7805a54f08181d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99b57c44e88b5000d4bc35c1a2da6714') in 0.062859 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.209951 seconds.
+  path: Assets/AssetPack/Treasure Hunters/Palm Tree Island/Sprites/Objects/Ship Helm/Ship Helm Idle 05.png
+  artifactKey: Guid(4a3b5f6dd0e77694d927971412264774) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPack/Treasure Hunters/Palm Tree Island/Sprites/Objects/Ship Helm/Ship Helm Idle 05.png using Guid(4a3b5f6dd0e77694d927971412264774) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd972be815b973404341f14a8f5bd36d1') in 0.051698 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.339851 seconds.
+  path: Assets/AssetPack/Treasure Hunters/Palm Tree Island/Sprites/Objects/Ship Helm/Ship Helm Turn 01.png
+  artifactKey: Guid(a7e4819563bfdfe4585df1098be75db5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPack/Treasure Hunters/Palm Tree Island/Sprites/Objects/Ship Helm/Ship Helm Turn 01.png using Guid(a7e4819563bfdfe4585df1098be75db5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '641af0171a084d1cb61d99a2ff00f0af') in 0.079261 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.101507 seconds.
+  path: Assets/AssetPack/Treasure Hunters/Palm Tree Island/Sprites/Objects/Ship Helm/Ship Helm Turn 02.png
+  artifactKey: Guid(eba96fb85f1d7594d9e72b424c8c7d4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPack/Treasure Hunters/Palm Tree Island/Sprites/Objects/Ship Helm/Ship Helm Turn 02.png using Guid(eba96fb85f1d7594d9e72b424c8c7d4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47619a2058a179f84aba34db374643ec') in 0.086789 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.896211 seconds.
+  path: Assets/AssetPack/Treasure Hunters/Palm Tree Island/Sprites/Objects/Ship Helm/Ship Helm Turn 04.png
+  artifactKey: Guid(30d8038791e263a419eb6430a50c9e1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPack/Treasure Hunters/Palm Tree Island/Sprites/Objects/Ship Helm/Ship Helm Turn 04.png using Guid(30d8038791e263a419eb6430a50c9e1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e204b850a4b7b357125490c9eebea65e') in 0.053914 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 49.909509 seconds.
+  path: Assets/AssetPack/Treasure Hunters/Pirate Ship/Sprites/Decorations/Barrels and Bottles
+  artifactKey: Guid(f2ab2786b1454474f9a86635e90770c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPack/Treasure Hunters/Pirate Ship/Sprites/Decorations/Barrels and Bottles using Guid(f2ab2786b1454474f9a86635e90770c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '393076242caa098fd38278c02fde1958') in 0.043355 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.014862 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.87 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.330 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.87 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3436 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 146.3 MB.
+System memory in use after: 146.5 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 4350.
+Total: 6.451100 ms (FindLiveObjects: 1.233600 ms CreateObjectMapping: 0.390300 ms MarkObjects: 4.777300 ms  DeleteObjects: 0.046100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.214459 seconds.
+  path: Assets/Prefab/DecorationsPirateship/Ship Helm Idle.prefab
+  artifactKey: Guid(273be2710e8f2d544aa426018fa5965b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/DecorationsPirateship/Ship Helm Idle.prefab using Guid(273be2710e8f2d544aa426018fa5965b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a3c20b25fca127b8233f6b43f0a2fca') in 0.192454 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.332432 seconds.
+  path: Assets/Prefab/DecorationsPirateship/Ship Helm Turn.prefab
+  artifactKey: Guid(6058db64cf3cbf54b994f41752f11c6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/DecorationsPirateship/Ship Helm Turn.prefab using Guid(6058db64cf3cbf54b994f41752f11c6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1c9e3e0493f6feb2bfa36a4e19077ca') in 0.090948 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.035639 seconds.
+A Native Collection has not been disposed, resulting in a memory leak. Enable Full StackTraces to get more details.
+
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.94 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.988 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.99 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3427 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 146.0 MB.
+System memory in use after: 146.2 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 4355.
+Total: 7.349100 ms (FindLiveObjects: 0.791500 ms CreateObjectMapping: 0.541900 ms MarkObjects: 5.948100 ms  DeleteObjects: 0.063700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010510 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.12 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.932 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.89 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3427 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 146.0 MB.
+System memory in use after: 146.2 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 4359.
+Total: 7.493000 ms (FindLiveObjects: 0.743300 ms CreateObjectMapping: 0.378800 ms MarkObjects: 6.313800 ms  DeleteObjects: 0.053500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011343 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.32 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.949 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.98 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3427 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 146.0 MB.
+System memory in use after: 146.3 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 4363.
+Total: 7.944100 ms (FindLiveObjects: 0.725000 ms CreateObjectMapping: 0.375100 ms MarkObjects: 6.780800 ms  DeleteObjects: 0.059700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009853 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.43 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.061 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.70 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3427 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 146.1 MB.
+System memory in use after: 146.3 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 4367.
+Total: 8.020500 ms (FindLiveObjects: 1.064900 ms CreateObjectMapping: 0.579100 ms MarkObjects: 6.265000 ms  DeleteObjects: 0.104700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1852.368283 seconds.
+  path: Assets/AssetPack/Treasure Hunters/Palm Tree Island/Sprites/Back Palm Trees/Back Palm Tree Left 01.png
+  artifactKey: Guid(24931d75cda2ac644916f789174425f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPack/Treasure Hunters/Palm Tree Island/Sprites/Back Palm Trees/Back Palm Tree Left 01.png using Guid(24931d75cda2ac644916f789174425f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1e438f384711309df6bbc866f3f69f7') in 0.201766 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.087881 seconds.
+  path: Assets/AssetPack/Treasure Hunters/Palm Tree Island/Sprites/Back Palm Trees/Back Palm Tree Right 04.png
+  artifactKey: Guid(66dd6d68af1a71a4a831a72c2d65655a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPack/Treasure Hunters/Palm Tree Island/Sprites/Back Palm Trees/Back Palm Tree Right 04.png using Guid(66dd6d68af1a71a4a831a72c2d65655a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27334ca38c6a189ad8178ba31a5b7a5e') in 0.059747 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 251.439328 seconds.
+  path: Assets/AssetPack/Treasure Hunters/Palm Tree Island/Sprites/Background/Additional Water.png
+  artifactKey: Guid(c68ede1d6b284e5448ab74d66ad6382f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPack/Treasure Hunters/Palm Tree Island/Sprites/Background/Additional Water.png using Guid(c68ede1d6b284e5448ab74d66ad6382f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd482073b1362aa274bf77dd1668ea308') in 0.063977 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
