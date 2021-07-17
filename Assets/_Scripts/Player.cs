@@ -23,7 +23,6 @@ public class Player : MonoBehaviour
     CircleCollider2D dmgPoint;
     Damage dmgScript;
     
-
     // Start is called before the first frame update
     void Start()
     {
