@@ -7,6 +7,7 @@ public class Knife : MonoBehaviour
     Player player;
     Rigidbody2D rb;
     CircleCollider2D handle;
+    CircleCollider2D damage;
     BoxCollider2D bc;
     SpriteRenderer sr;
     public float throwForce = 5f;
@@ -17,6 +18,9 @@ public class Knife : MonoBehaviour
         
         player = FindObjectOfType<Player>();
         handle = GetComponent<CircleCollider2D>();
+        damage = transform.GetChild(0).GetComponent<CircleCollider2D>();
+        //damage.enabled = false; 
+
         rb = GetComponent<Rigidbody2D>();
         bc = GetComponent<BoxCollider2D>();
         sr = GetComponent<SpriteRenderer>();
@@ -26,6 +30,7 @@ public class Knife : MonoBehaviour
         if (collision.CompareTag("Player"))
         {
             EquipKnife(player.throwPoint);
+            damage.enabled = false;
         }
     }
 
@@ -41,6 +46,7 @@ public class Knife : MonoBehaviour
         transform.parent = null;
         
         StartCoroutine(ResetPickup());
+        StartCoroutine(ToggleDamage());
     }
 
     
@@ -61,5 +67,12 @@ public class Knife : MonoBehaviour
     {
         yield return new WaitForSeconds(1f);
         handle.enabled = true;
+    }
+
+    IEnumerator ToggleDamage()
+    {
+        damage.enabled = true;
+        yield return new WaitForSeconds(1f);
+        damage.enabled = false;
     }
 }

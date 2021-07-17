@@ -11,6 +11,7 @@ public class Tooth : MonoBehaviour
     Transform player;
     Vector2 rotScale = new Vector2(0, 180);
     bool canAttack = true;
+    public GameObject damageDealer;
     // Start is called before the first frame update
     void Start()
     {
@@ -52,5 +53,15 @@ public class Tooth : MonoBehaviour
         canAttack = false;
         yield return new WaitForSeconds(attackDelay);
         canAttack = true;
+    }
+
+    public void DAMAGE_ON()
+    {
+        damageDealer.SetActive(true);
+    }
+
+    public void DAMAGE_OFF()
+    {
+        damageDealer.SetActive(false);
     }
 }

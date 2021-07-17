@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: toothAttack
+  m_Name: water_medium
   serializedVersion: 6
   m_Legacy: 0
   m_Compressed: 0
@@ -20,15 +20,13 @@ AnimationClip:
   m_PPtrCurves:
   - curve:
     - time: 0
-      value: {fileID: 21300000, guid: 615af5283cf52564b85d29be18609ef0, type: 3}
+      value: {fileID: 21300000, guid: 79b43163187adfb49b24619b403d4173, type: 3}
     - time: 0.083333336
-      value: {fileID: 21300000, guid: 82c0f92f2a4e77d4386533ffe414588b, type: 3}
+      value: {fileID: 21300000, guid: 51ee69aa2256e16438ac847d86792779, type: 3}
     - time: 0.16666667
-      value: {fileID: 21300000, guid: dd1798a4fbbe2ee48acf594bf716da48, type: 3}
+      value: {fileID: 21300000, guid: a7645e2bd1c4c3043a0cc012c2966ec7, type: 3}
     - time: 0.25
-      value: {fileID: 21300000, guid: 23d9e097207b8894689945e1148196ef, type: 3}
-    - time: 0.33333334
-      value: {fileID: 21300000, guid: 6bbb2e9c5b08190469627085dd4f84e2, type: 3}
+      value: {fileID: 21300000, guid: 8884b41d863ea3a428b6a76b282b5db2, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
@@ -48,22 +46,21 @@ AnimationClip:
       customType: 23
       isPPtrCurve: 1
     pptrCurveMapping:
-    - {fileID: 21300000, guid: 615af5283cf52564b85d29be18609ef0, type: 3}
-    - {fileID: 21300000, guid: 82c0f92f2a4e77d4386533ffe414588b, type: 3}
-    - {fileID: 21300000, guid: dd1798a4fbbe2ee48acf594bf716da48, type: 3}
-    - {fileID: 21300000, guid: 23d9e097207b8894689945e1148196ef, type: 3}
-    - {fileID: 21300000, guid: 6bbb2e9c5b08190469627085dd4f84e2, type: 3}
+    - {fileID: 21300000, guid: 79b43163187adfb49b24619b403d4173, type: 3}
+    - {fileID: 21300000, guid: 51ee69aa2256e16438ac847d86792779, type: 3}
+    - {fileID: 21300000, guid: a7645e2bd1c4c3043a0cc012c2966ec7, type: 3}
+    - {fileID: 21300000, guid: 8884b41d863ea3a428b6a76b282b5db2, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 0.4166667
+    m_StopTime: 0.33333334
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
     m_HasAdditiveReferencePose: 0
-    m_LoopTime: 0
+    m_LoopTime: 1
     m_LoopBlend: 0
     m_LoopBlendOrientation: 0
     m_LoopBlendPositionY: 0
@@ -77,18 +74,4 @@ AnimationClip:
   m_EulerEditorCurves: []
   m_HasGenericRootTransform: 0
   m_HasMotionFloatCurves: 0
-  m_Events:
-  - time: 0.083333336
-    functionName: DAMAGE_ON
-    data: 
-    objectReferenceParameter: {fileID: 0}
-    floatParameter: 0
-    intParameter: 0
-    messageOptions: 0
-  - time: 0.33333334
-    functionName: DAMAGE_OFF
-    data: 
-    objectReferenceParameter: {fileID: 0}
-    floatParameter: 0
-    intParameter: 0
-    messageOptions: 0
+  m_Events: []

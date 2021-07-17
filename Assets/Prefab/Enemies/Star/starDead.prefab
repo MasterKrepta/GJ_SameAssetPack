@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 2985089156955154028}
   - component: {fileID: 2985089156955154019}
   - component: {fileID: 2985089156955154018}
+  - component: {fileID: -8843642975499410618}
   m_Layer: 6
   m_Name: starDead
   m_TagString: Untagged
@@ -152,3 +153,15 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.7494538, y: 0.6842489}
   m_EdgeRadius: 0
+--- !u!114 &-8843642975499410618
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2985089156955154017}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fcab56cee0773ae4b8b7ea0ccb11235d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

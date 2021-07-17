@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 6115387083213447404}
   - component: {fileID: 6115387083213447405}
   - component: {fileID: 212628627}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: DmgDealer
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -39,7 +39,7 @@ CircleCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6115387083213447403}
-  m_Enabled: 0
+  m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 1
@@ -47,7 +47,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0.13, y: 0}
   serializedVersion: 2
-  m_Radius: 0.15
+  m_Radius: 0.2
 --- !u!114 &212628627
 MonoBehaviour:
   m_ObjectHideFlags: 0
