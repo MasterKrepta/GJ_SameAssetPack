@@ -1,11 +1,22 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Health : MonoBehaviour, IDamagable
 {
     [SerializeField]float _currentHealth, _maxHealth;
-    public float CurrentHealth { get => _currentHealth; set => _currentHealth = value; }
+    public Image healthBar;
+    public float CurrentHealth
+    {
+        get => _currentHealth;
+        set
+        {
+            _currentHealth = value;
+            if (healthBar !=null)
+                healthBar.fillAmount = CurrentHealth / MaxHealth;
+        }
+    }
     public float MaxHealth { get => _maxHealth; set => _maxHealth = value; }
 
     public GameObject destroyed;
