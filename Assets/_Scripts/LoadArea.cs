@@ -53,6 +53,7 @@ public class LoadArea : MonoBehaviour
             DestroyOffScreenEnemies();
             SceneManager.LoadSceneAsync(gameObject.name, LoadSceneMode.Additive);
             IsLoaded = true;
+            Destroy(this.gameObject);
             
         }
     }

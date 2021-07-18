@@ -10,19 +10,25 @@ public class TreasueOnDestory : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        AmountToSpawn = Random.Range(0, 3);
+        AmountToSpawn = Random.Range(1, 5);
         rb = GetComponent<Rigidbody2D>();
     }
 
     private void OnDestroy()
     {
-        int randTreasure = Random.Range(0, treasures.Length);
+        
         for (int i = 0; i < AmountToSpawn; i++)
         {
-            Instantiate(treasures[randTreasure], transform.position, Quaternion.identity);
+            SpawnTreasure();
 
         }
         rb.AddForce(Vector2.up * .5f);
         
+    }
+
+    public void SpawnTreasure()
+    {
+        int randTreasure = Random.Range(0, treasures.Length);
+        Instantiate(treasures[randTreasure], transform.position, Quaternion.identity);
     }
 }
