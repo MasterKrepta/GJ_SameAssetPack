@@ -78,6 +78,18 @@ public class Player : MonoBehaviour
 
     }
 
+    private void LateUpdate()
+    {
+        
+        if (rb.velocity.y < 0 )
+        {
+            this.gameObject.layer = 6;
+        }
+        else
+        {
+            this.gameObject.layer = 9;
+        }
+    }
 
     private void ManageRotation()
     {
@@ -131,5 +143,32 @@ public class Player : MonoBehaviour
         dmgPoint.enabled = false;
         //print("OFF");
         
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+
+        Collider2D col = collision.collider;
+        Vector2 contactPoint = collision.contacts[0].point;
+        Vector2 center = col.bounds.center;
+
+        bool below = contactPoint.y < center.y;
+
+        if (below == true)
+        {
+            this.gameObject.layer = 9;
+        }
+        else
+        {
+            this.gameObject.layer = 6;
+        }
+        //if (contactPoint.normal.y > 0)
+        //{
+        //    this.gameObject.layer = 9;
+        //}
+        //else
+        //{
+        //    this.gameObject.layer = 6;
+        //}
     }
 }
