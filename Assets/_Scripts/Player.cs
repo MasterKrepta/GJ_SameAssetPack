@@ -61,6 +61,7 @@ public class Player : MonoBehaviour
 
         if (Input.GetButtonDown("Jump"))
         {
+            //todo Limit jump to double max
             rb.AddForce(transform.up * jumpForce);
         }
         if (Input.GetKeyDown(KeyCode.F) && knife != null)
