@@ -6,6 +6,8 @@ using UnityEngine.SceneManagement;
 public class LoadArea : MonoBehaviour
 {
     public bool IsLoaded, shouldLoad;
+   public  Scene sceneloaded;
+    public string sceneName;
     Transform player;
 
     // Start is called before the first frame update
@@ -13,6 +15,8 @@ public class LoadArea : MonoBehaviour
     {
         if (SceneManager.sceneCount > 0)
         {
+            sceneloaded = SceneManager.GetSceneByName(gameObject.name);
+            sceneName = sceneloaded.name;
             for (int i = 0; i < SceneManager.sceneCount; i++)
             {
                 Scene scene = SceneManager.GetSceneAt(i);
@@ -25,7 +29,7 @@ public class LoadArea : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("Player"))
+        if (collision.CompareTag("Player") && shouldLoad == false)
         {
             shouldLoad = true;
             LoadScene();
@@ -34,8 +38,9 @@ public class LoadArea : MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D collision)
     {
-        if (collision.CompareTag("Player"))
+        if (collision.CompareTag("Player") && shouldLoad == true)
         {
+          
             shouldLoad = false;
             UnLoadScene();
         }
@@ -48,6 +53,7 @@ public class LoadArea : MonoBehaviour
             DestroyOffScreenEnemies();
             SceneManager.LoadSceneAsync(gameObject.name, LoadSceneMode.Additive);
             IsLoaded = true;
+            
         }
     }
 
@@ -70,6 +76,12 @@ public class LoadArea : MonoBehaviour
         {
             SceneManager.UnloadSceneAsync(gameObject.name);
             IsLoaded = false;
+           
         }
+    }
+
+    bool checkScene()
+    {
+        return sceneloaded.isLoaded;
     }
 }
