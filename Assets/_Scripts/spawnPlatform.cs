@@ -4,12 +4,16 @@ using UnityEngine;
 
 public class spawnPlatform : MonoBehaviour
 {
+   
     public GameObject Enemy;
     
     private void OnEnable()
     {
-        Instantiate(Enemy, transform.position, Quaternion.identity);
+        InvokeRepeating("Spawn", 1, 60);
     }
-
-
+    
+    void Spawn()
+    {
+        Instantiate(Enemy, transform.position, Quaternion.identity);
+    } 
 }

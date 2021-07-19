@@ -20,10 +20,10 @@ public class Chest : MonoBehaviour
         {
             anim.SetBool("unlocked", true);
             //TODO spawn treasure
-            for (int i = 0; i < numToSpawn; i++)
-            {
-                treasureScript.SpawnTreasure();
-            }
+            //for (int i = 0; i < numToSpawn; i++)
+            //{
+            //    treasureScript.SpawnTreasure();
+            //}
             
         }
     }
